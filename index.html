@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="it">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#141827" />
+    <title>Poké Mnemonic</title>
+    <link rel="manifest" href="./manifest.webmanifest?v=3" />
+    <link rel="stylesheet" href="./styles.css?v=5" />
+  </head>
+  <body>
+    <div class="app-shell">
+      <header class="topbar">
+        <div>
+          <p class="eyebrow">Pokédex mnemotecnica</p>
+          <h1>Poké Mnemonic</h1>
+        </div>
+        <button id="installButton" class="ghost-button" hidden>Installa</button>
+      </header>
+
+      <main class="main-layout">
+        <section class="panel controls-panel">
+          <div class="field-row">
+            <label class="field" for="pokemonNumber">
+              <span>Pokémon #</span>
+              <input id="pokemonNumber" type="number" min="1" max="1025" value="25" />
+            </label>
+            <button id="generateButton" class="primary-button">Genera</button>
+          </div>
+
+          <div class="segmented">
+            <button class="segment active" data-mode="number">Numero → Pokémon</button>
+            <button class="segment" data-mode="pokemon">Pokémon → Numero</button>
+          </div>
+
+          <div class="field study-scope-field custom-select-field">
+            <span id="studyScopeLabel">Modalità di studio</span>
+            <select class="custom-select-source" id="studyScope" tabindex="-1" aria-hidden="true">
+              <option value="batch">Gruppi da 50, in ordine</option>
+              <option value="generation">Per generazione</option>
+              <option value="custom">Intervallo personalizzato</option>
+            </select>
+            <div class="custom-select" data-select-id="studyScope">
+              <button type="button" class="custom-select-trigger" aria-haspopup="listbox" aria-expanded="false" aria-labelledby="studyScopeLabel studyScopeValue">
+                <span id="studyScopeValue"></span>
+                <span class="custom-select-chevron" aria-hidden="true"></span>
+              </button>
+              <div class="custom-select-menu hidden" role="listbox" aria-labelledby="studyScopeLabel"></div>
+            </div>
+          </div>
+
+          <div class="field study-option hidden custom-select-field" id="generationOption">
+            <span id="studyGenerationLabel">Generazione</span>
+            <select class="custom-select-source" id="studyGeneration" tabindex="-1" aria-hidden="true">
+              <option value="0">Generazione I · #001–#151</option>
+              <option value="1">Generazione II · #152–#251</option>
+              <option value="2">Generazione III · #252–#386</option>
+              <option value="3">Generazione IV · #387–#493</option>
+              <option value="4">Generazione V · #494–#649</option>
+              <option value="5">Generazione VI · #650–#721</option>
+              <option value="6">Generazione VII · #722–#809</option>
+              <option value="7">Generazione VIII · #810–#905</option>
+              <option value="8">Generazione IX · #906–#1025</option>
+            </select>
+            <div class="custom-select" data-select-id="studyGeneration">
+              <button type="button" class="custom-select-trigger" aria-haspopup="listbox" aria-expanded="false" aria-labelledby="studyGenerationLabel studyGenerationValue">
+                <span id="studyGenerationValue"></span>
+                <span class="custom-select-chevron" aria-hidden="true"></span>
+              </button>
+              <div class="custom-select-menu hidden" role="listbox" aria-labelledby="studyGenerationLabel"></div>
+            </div>
+          </div>
+
+          <div class="study-option hidden" id="customRangeOption">
+            <label class="field" for="studyRangeStart">
+              <span>Dal Pokémon #</span>
+              <input id="studyRangeStart" type="number" min="1" max="1025" value="1" />
+            </label>
+            <label class="field" for="studyRangeEnd">
+              <span>Al Pokémon #</span>
+              <input id="studyRangeEnd" type="number" min="1" max="1025" value="50" />
+            </label>
+          </div>
+
+          <div class="field-row compact study-buttons">
+            <button id="studyButton" class="secondary-button">Studia i primi 50</button>
+            <button id="progressButton" class="ghost-button" aria-expanded="false" aria-controls="progressPanel">Vedi progressi</button>
+            <button id="clearProgressButton" class="ghost-button">Reset progresso</button>
+          </div>
+        </section>
+
+        <section class="panel progress-panel hidden" id="progressPanel" aria-live="polite">
+          <div class="panel-header">
+            <h3>I tuoi progressi</h3>
+            <button type="button" class="ghost-button" id="closeProgressButton">Chiudi</button>
+          </div>
+          <p class="progress-summary" id="progressSummary"></p>
+          <div class="generation-progress-list" id="generationProgressList"></div>
+        </section>
+
+        <section class="panel preview-panel">
+          <div class="pokemon-header">
+            <div class="sprite-wrap">
+              <img id="pokemonSprite" alt="Sprite del Pokémon" />
+            </div>
+            <div>
+              <p class="eyebrow">Associato</p>
+              <h2 id="pokemonName">Pikachu</h2>
+              <p id="pokemonNumberLabel">#025</p>
+            </div>
+          </div>
+
+          <div class="word-box">
+            <p class="word-label">Parola mnemonica</p>
+            <h3 id="mainWord">anale</h3>
+          </div>
+
+          <div class="alternatives-box">
+            <p class="word-label">Alternative</p>
+            <div id="alternatives" class="chip-list"></div>
+          </div>
+
+          <div class="editor-box">
+            <label for="customWordInput" class="word-label">Modifica parola</label>
+            <textarea id="customWordInput" rows="2" placeholder="Scrivi una parola che ti piace..."></textarea>
+            <div class="field-row compact end">
+              <button id="saveWordButton" class="primary-button">Salva</button>
+            </div>
+          </div>
+        </section>
+
+        <section class="panel list-panel">
+          <div class="panel-header">
+            <h3>Generatore completo</h3>
+            <button id="generateAllButton" class="secondary-button">Genera tutte le parole</button>
+          </div>
+
+          <div id="wordTable" class="word-table" aria-live="polite"></div>
+        </section>
+
+        <section class="panel study-panel hidden" id="studyPanel">
+          <p class="study-progress" id="studyProgress" aria-live="polite"></p>
+          <div class="study-card" id="studyCard">
+            <div class="card-face" id="studyFace" aria-live="polite">
+              <p class="eyebrow" id="studyLabel">Frontal</p>
+              <h3 id="studyFrontText">#025</h3>
+              <img id="studySprite" alt="Sprite del Pokémon" />
+              <div class="word-box hidden" id="studyHint">
+                <p class="word-label">Aiuto · parola mnemonica</p>
+                <h3 id="studyHintText"></h3>
+              </div>
+              <div class="word-box hidden" id="studyAnswer">
+                <p class="word-label">Soluzione</p>
+                <h3 id="studyAnswerText"></h3>
+              </div>
+            </div>
+
+            <div class="study-actions" id="studyRevealActions">
+              <button type="button" class="secondary-button" id="showHintButton">Mostra aiuto</button>
+              <button type="button" class="primary-button" id="showAnswerButton">Mostra soluzione</button>
+            </div>
+
+            <div class="card-toolbar">
+              <button class="score-button again hidden" data-score="1">Da ripassare</button>
+              <button class="score-button hard hidden" data-score="2">Difficile</button>
+              <button class="score-button good hidden" data-score="3">Giusta</button>
+              <button class="score-button easy hidden" data-score="4">Facile</button>
+            </div>
+          </div>
+          <div class="study-complete hidden" id="studyComplete" aria-live="polite">
+            <h3 id="studyCompleteTitle">Gruppo completato!</h3>
+            <p id="studyCompleteText"></p>
+            <button type="button" class="primary-button" id="nextStudyBatchButton">Studia i prossimi 50</button>
+          </div>
+        </section>
+      </main>
+    </div>
+
+    <script src="./app.js?v=8"></script>
+  </body>
+</html>

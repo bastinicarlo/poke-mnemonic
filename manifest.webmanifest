@@ -1,0 +1,10 @@
+{
+  "name": "Poké Mnemonic",
+  "short_name": "PokéMn",
+  "start_url": ".",
+  "display": "standalone",
+  "background_color": "#101426",
+  "theme_color": "#141827",
+  "description": "Generatore di parole mnemoniche per Pokémon e sistema di flashcard.",
+  "icons": []
+}
