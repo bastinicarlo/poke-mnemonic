@@ -6,7 +6,7 @@
     <meta name="theme-color" content="#141827" />
     <title>Poké Mnemonic</title>
     <link rel="manifest" href="./manifest.webmanifest?v=3" />
-    <link rel="stylesheet" href="./styles.css?v=10" />
+    <link rel="stylesheet" href="./styles.css?v=11" />
   </head>
   <body>
     <div class="app-shell">
@@ -51,6 +51,8 @@
             <div class="word-box study-word-editor hidden" id="studyWordEditor">
               <label for="studyWordInput" class="word-label">Parola mnemonica</label>
               <textarea id="studyWordInput" rows="2"></textarea>
+              <p class="word-label">Parole consigliate · seleziona una parola e poi salvala</p>
+              <div class="chip-list study-word-suggestions" id="studyWordSuggestions"></div>
               <p class="storage-status" id="studyWordStatus" aria-live="polite"></p>
               <div class="study-actions">
                 <button type="button" class="secondary-button" id="cancelStudyWordEditButton">Annulla</button>
@@ -195,6 +197,6 @@
       </main>
     </div>
 
-    <script src="./app.js?v=14"></script>
+    <script src="./app.js?v=15"></script>
   </body>
 </html>

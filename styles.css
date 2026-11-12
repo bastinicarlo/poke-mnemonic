@@ -564,6 +564,12 @@ textarea {
 
 .study-word-editor {
   margin-top: 1rem;
+  text-align: left;
+}
+
+.study-word-suggestions {
+  margin-top: 0.6rem;
+  margin-bottom: 0.8rem;
 }
 
 #studyFrontText {

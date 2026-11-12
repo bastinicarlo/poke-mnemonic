@@ -251,6 +251,7 @@ async function saveWord(number, word, status = document.getElementById('saveStat
 
   if (state.selectedNumber === number) updateWordPreview(number);
   renderWordTable();
+  if (studyCardEntry === number) renderStudyWordSuggestions(number);
   if (studyCardEntry === number && !document.getElementById('studyHint').classList.contains('hidden')) {
     document.getElementById('studyHintText').textContent = generateWordForNumber(number);
   }
@@ -644,8 +645,45 @@ function toggleStudyWordEditor(forceOpen) {
   button.setAttribute('aria-expanded', String(isOpen));
   if (isOpen) {
     document.getElementById('studyWordInput').value = generateWordForNumber(studyCardEntry);
+    renderStudyWordSuggestions(studyCardEntry);
+    document.getElementById('studyWordStatus').textContent = '';
+    document.getElementById('studyWordStatus').classList.remove('error');
     document.getElementById('studyWordInput').focus();
   }
+}
+
+function renderStudyWordSuggestions(number) {
+  const suggestions = document.getElementById('studyWordSuggestions');
+  suggestions.replaceChildren();
+  const wordOptions = getWordAlternatives(number);
+  if (!wordOptions.length) {
+    const empty = document.createElement('span');
+    empty.className = 'muted';
+    empty.textContent = 'Nessuna parola consigliata per questo numero. Puoi inserirne una tua.';
+    suggestions.appendChild(empty);
+    return;
+  }
+
+  const input = document.getElementById('studyWordInput');
+  wordOptions.forEach((word) => {
+    const button = document.createElement('button');
+    button.type = 'button';
+    button.className = 'chip';
+    button.textContent = word;
+    button.setAttribute('aria-pressed', String(normalizeWord(input.value) === word));
+    if (normalizeWord(input.value) === word) button.classList.add('active');
+    button.addEventListener('click', () => {
+      input.value = word;
+      const status = document.getElementById('studyWordStatus');
+      status.textContent = '';
+      status.classList.remove('error');
+      suggestions.querySelectorAll('.chip').forEach((chip) => {
+        chip.classList.toggle('active', chip === button);
+        chip.setAttribute('aria-pressed', String(chip === button));
+      });
+    });
+    suggestions.appendChild(button);
+  });
 }
 
 function revealStudyAnswer() {
@@ -804,6 +842,12 @@ function attachEvents() {
   document.getElementById('showAnswerButton').addEventListener('click', revealStudyAnswer);
   document.getElementById('editStudyWordButton').addEventListener('click', () => toggleStudyWordEditor());
   document.getElementById('cancelStudyWordEditButton').addEventListener('click', () => toggleStudyWordEditor(false));
+  document.getElementById('studyWordInput').addEventListener('input', () => {
+    const status = document.getElementById('studyWordStatus');
+    status.textContent = '';
+    status.classList.remove('error');
+    renderStudyWordSuggestions(studyCardEntry);
+  });
   document.getElementById('saveStudyWordButton').addEventListener('click', async () => {
     const word = document.getElementById('studyWordInput').value;
     const status = document.getElementById('studyWordStatus');

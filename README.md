@@ -11,7 +11,7 @@ Una Progressive Web App mobile-first per associare un numero di Pokédex a una p
 - possibilità di interrompere una sessione di studio in qualsiasi momento
 - riepilogo dei progressi totali e per generazione
 - aiuto facoltativo tramite parola mnemonica e soluzione rivelata solo su richiesta
-- modifica e salvataggio della parola mnemonica direttamente dalla scheda di studio
+- modifica e salvataggio della parola mnemonica direttamente dalla scheda di studio, con parole consigliate selezionabili
 - installabile come app sul dispositivo
 
 ## Esecuzione locale
