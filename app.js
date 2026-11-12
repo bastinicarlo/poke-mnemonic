@@ -342,8 +342,20 @@ function startStudyRange(start, end, session) {
   document.getElementById('studyPanel').classList.remove('hidden');
   document.getElementById('studyComplete').classList.add('hidden');
   document.getElementById('studyCard').classList.remove('hidden');
+  document.getElementById('stopStudyButton').classList.remove('hidden');
   updateStudyCard();
   document.getElementById('studyPanel').scrollIntoView({ behavior: 'smooth', block: 'start' });
+}
+
+function stopStudy() {
+  studyQueue = [];
+  currentStudyIndex = 0;
+  studyCardEntry = null;
+  document.getElementById('studyPanel').classList.add('hidden');
+  document.getElementById('studyCard').classList.add('hidden');
+  document.getElementById('studyComplete').classList.add('hidden');
+  document.getElementById('stopStudyButton').classList.add('hidden');
+  document.getElementById('controlsPanel').scrollIntoView({ behavior: 'smooth', block: 'start' });
 }
 
 function updateStudyOptions() {
@@ -661,6 +673,7 @@ function nextStudyCard() {
       }
     }
     document.getElementById('studyCard').classList.add('hidden');
+    document.getElementById('stopStudyButton').classList.add('hidden');
     document.getElementById('studyProgress').textContent = `${formatStudyRange(batchStart, batchEnd)} completati`;
     document.getElementById('studyCompleteTitle').textContent = `${formatStudyRange(batchStart, batchEnd)} completati!`;
 
@@ -742,6 +755,7 @@ function attachEvents() {
   document.getElementById('studyButton').addEventListener('click', () => {
     startSelectedStudy();
   });
+  document.getElementById('stopStudyButton').addEventListener('click', stopStudy);
   document.getElementById('nextStudyBatchButton').addEventListener('click', () => {
     const button = document.getElementById('nextStudyBatchButton');
     const start = Number(button.dataset.start);

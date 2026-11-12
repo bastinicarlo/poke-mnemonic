@@ -8,6 +8,7 @@ Una Progressive Web App mobile-first per associare un numero di Pokédex a una p
 - associazione a Pokémon con sprite reali da PokéAPI
 - salvataggio delle parole personalizzate e dei progressi sul dispositivo, con richiesta al browser di proteggere i dati dalla rimozione automatica
 - studio in ordine casuale, in gruppi di 50, per generazione o per intervallo Pokédex personalizzato
+- possibilità di interrompere una sessione di studio in qualsiasi momento
 - riepilogo dei progressi totali e per generazione
 - aiuto facoltativo tramite parola mnemonica e soluzione rivelata solo su richiesta
 - installabile come app sul dispositivo
