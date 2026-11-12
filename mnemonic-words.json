@@ -1,0 +1,5368 @@
+{
+  "100": [
+    "adesso",
+    "desse",
+    "disse",
+    "dissi",
+    "tassa",
+    "tasse",
+    "tazza"
+  ],
+  "101": [
+    "testa",
+    "desta",
+    "desti",
+    "dista",
+    "disti",
+    "tasta",
+    "tasti"
+  ],
+  "102": [
+    "desina",
+    "desini",
+    "dosano",
+    "dosino",
+    "tisana",
+    "tisane",
+    "tosano"
+  ],
+  "103": [
+    "desume",
+    "desumi",
+    "desumo",
+    "ateismi",
+    "ateismo",
+    "dosiamo",
+    "tosiamo"
+  ],
+  "104": [
+    "dosare",
+    "tesori",
+    "tesoro",
+    "tosare",
+    "doserai",
+    "doserei",
+    "toserai"
+  ],
+  "106": [
+    "disagi",
+    "tisica",
+    "tisici",
+    "tisico",
+    "disagio"
+  ],
+  "107": [
+    "tisiche"
+  ],
+  "108": [
+    "dosava",
+    "dosavi",
+    "dosavo",
+    "tosava",
+    "tosavi",
+    "tosavo",
+    "adesiva"
+  ],
+  "110": [
+    "attesa",
+    "attese",
+    "attesi",
+    "datosi",
+    "ottusa",
+    "ottuse",
+    "ottusi"
+  ],
+  "111": [
+    "tutto",
+    "datti",
+    "detta",
+    "dette",
+    "detti",
+    "dotta",
+    "dotte"
+  ],
+  "112": [
+    "datano",
+    "datino",
+    "dotano",
+    "dotino",
+    "ottone",
+    "tedino",
+    "tetano"
+  ],
+  "113": [
+    "attimo",
+    "addome",
+    "addomi",
+    "attimi",
+    "datemi",
+    "datomi",
+    "ditemi"
+  ],
+  "114": [
+    "attore",
+    "dietro",
+    "teatro",
+    "tetra",
+    "tetre",
+    "tetri",
+    "tetro"
+  ],
+  "115": [
+    "titolo",
+    "attuale",
+    "datelo",
+    "ditale",
+    "ditali",
+    "ditelo",
+    "titoli"
+  ],
+  "116": [
+    "tedesco",
+    "dedica",
+    "dodici",
+    "ottici",
+    "ottico",
+    "attigua",
+    "attigue"
+  ],
+  "117": [
+    "dediche",
+    "dedichi"
+  ],
+  "118": [
+    "attiva",
+    "attive",
+    "attivi",
+    "datava",
+    "datavi",
+    "datavo",
+    "datevi"
+  ],
+  "119": [
+    "tituba",
+    "titubi",
+    "titubai"
+  ],
+  "120": [
+    "danza",
+    "danzi",
+    "densa",
+    "dense",
+    "densi",
+    "denso",
+    "danzai"
+  ],
+  "121": [
+    "dente",
+    "tanto",
+    "dando",
+    "denti",
+    "tanta",
+    "tante",
+    "tanti"
+  ],
+  "122": [
+    "donna",
+    "danna",
+    "danni",
+    "dinne",
+    "donne",
+    "tenne",
+    "tenni"
+  ],
+  "123": [
+    "dinamo",
+    "doniamo",
+    "teniamo",
+    "tienimi",
+    "tuonamo",
+    "aduniamo",
+    "autonoma"
+  ],
+  "124": [
+    "denaro",
+    "tenere",
+    "denari",
+    "dinari",
+    "donare",
+    "tenera",
+    "teneri"
+  ],
+  "125": [
+    "tienila",
+    "tienile",
+    "tienilo",
+    "tignola",
+    "tignole"
+  ],
+  "126": [
+    "tanga",
+    "tenga",
+    "tengo",
+    "tenace",
+    "tenaci",
+    "tonaca",
+    "tonaci"
+  ],
+  "127": [
+    "dunque",
+    "tonchi",
+    "tonache",
+    "tonchio"
+  ],
+  "128": [
+    "tonfi",
+    "donava",
+    "donavi",
+    "donavo",
+    "teneva",
+    "tenevi",
+    "tenevo"
+  ],
+  "131": [
+    "domata",
+    "domate",
+    "domati",
+    "domato",
+    "timida",
+    "timide",
+    "timidi"
+  ],
+  "132": [
+    "domani",
+    "demoni",
+    "dimena",
+    "dimeni",
+    "domano",
+    "domina",
+    "domini"
+  ],
+  "133": [
+    "dammi",
+    "demmo",
+    "dimmi",
+    "domiamo",
+    "odiammo",
+    "aiutammo"
+  ],
+  "134": [
+    "temere",
+    "domare",
+    "timore",
+    "timori",
+    "domerai",
+    "domerei"
+  ],
+  "135": [
+    "demolii",
+    "diamoli",
+    "diamogli"
+  ],
+  "136": [
+    "atomica",
+    "atomici",
+    "atomico",
+    "diamoci"
+  ],
+  "137": [
+    "atomiche"
+  ],
+  "138": [
+    "domava",
+    "domavi",
+    "domavo",
+    "tumefi",
+    "tumefo",
+    "tumifa",
+    "tumife"
+  ],
+  "139": [
+    "tempo",
+    "tempi",
+    "tomba",
+    "tombe",
+    "tempia",
+    "tempie"
+  ],
+  "140": [
+    "terzo",
+    "darsi",
+    "dirsi",
+    "dorsi",
+    "dorso",
+    "tersa",
+    "terse"
+  ],
+  "141": [
+    "tardi",
+    "darti",
+    "dirti",
+    "tarda",
+    "torta",
+    "torte",
+    "torti"
+  ],
+  "142": [
+    "treno",
+    "darne",
+    "dirne",
+    "terna",
+    "terne",
+    "torna",
+    "torne"
+  ],
+  "143": [
+    "darmi",
+    "dirmi",
+    "dorma",
+    "dorme",
+    "dormo",
+    "terme",
+    "termi"
+  ],
+  "144": [
+    "durare",
+    "tirare",
+    "terre",
+    "torre",
+    "torri",
+    "turri",
+    "terrai"
+  ],
+  "145": [
+    "darla",
+    "darle",
+    "dirla",
+    "dirle",
+    "dirlo",
+    "dargli",
+    "dirgli"
+  ],
+  "146": [
+    "darci",
+    "dirci",
+    "targa",
+    "terga",
+    "terge",
+    "tergi",
+    "tergo"
+  ],
+  "147": [
+    "draghe",
+    "draghi",
+    "targhe",
+    "tirchi",
+    "torchi",
+    "turcha",
+    "turchi"
+  ],
+  "148": [
+    "darvi",
+    "dirvi",
+    "trave",
+    "travi",
+    "trova",
+    "trovi",
+    "deriva"
+  ],
+  "149": [
+    "terapia",
+    "tarpa",
+    "tarpi",
+    "torba",
+    "torbe",
+    "turba",
+    "deruba"
+  ],
+  "150": [
+    "tolse",
+    "tolsi",
+    "delizi",
+    "delusa",
+    "deluso",
+    "dolosa",
+    "dolose"
+  ],
+  "151": [
+    "tolta",
+    "tolte",
+    "tolti",
+    "tolto",
+    "adulta",
+    "adulte",
+    "adulti"
+  ],
+  "152": [
+    "italiano",
+    "dilani",
+    "talune",
+    "adulano",
+    "adulino",
+    "dilania",
+    "diluano"
+  ],
+  "153": [
+    "toglimi",
+    "aduliamo",
+    "diluiamo",
+    "tagliamo",
+    "togliamo"
+  ],
+  "154": [
+    "dolore",
+    "tagliare",
+    "togliere",
+    "delira",
+    "deliri",
+    "dolori",
+    "adulare"
+  ],
+  "155": [
+    "dalla",
+    "dalle",
+    "dallo",
+    "della",
+    "delle",
+    "dello",
+    "dilla"
+  ],
+  "156": [
+    "dolce",
+    "dolci",
+    "talco",
+    "tolga",
+    "tolgo",
+    "delegai",
+    "dilegua"
+  ],
+  "157": [
+    "deleghe",
+    "deleghi",
+    "dialoghi",
+    "teologhe",
+    "teologhi"
+  ],
+  "158": [
+    "diluvi",
+    "adulava",
+    "adulavi",
+    "adulavo",
+    "diluiva",
+    "diluivi",
+    "diluivo"
+  ],
+  "159": [
+    "talpa",
+    "talpe"
+  ],
+  "160": [
+    "decisa",
+    "decise",
+    "decisi",
+    "deciso",
+    "dicasi",
+    "diocesi",
+    "discesa"
+  ],
+  "161": [
+    "decide",
+    "decidi",
+    "decido",
+    "digita",
+    "digiti",
+    "tacita",
+    "tacite"
+  ],
+  "162": [
+    "decani",
+    "decano",
+    "decine",
+    "dicano",
+    "dicono",
+    "dogana",
+    "dogane"
+  ],
+  "163": [
+    "dogma",
+    "dogmi",
+    "decimi",
+    "tegame",
+    "tegami",
+    "diciamo",
+    "adagiamo"
+  ],
+  "164": [
+    "tacere",
+    "tigre",
+    "tigri",
+    "decori",
+    "dicare",
+    "tuguri",
+    "diceria"
+  ],
+  "165": [
+    "docile",
+    "docili",
+    "tegola",
+    "tegole",
+    "edicola",
+    "edicole"
+  ],
+  "166": [
+    "dacci",
+    "dicci",
+    "docce",
+    "tacci",
+    "tocca",
+    "doccia",
+    "taccia"
+  ],
+  "167": [
+    "dischi",
+    "tacchi",
+    "tacque",
+    "tacqui",
+    "tasche",
+    "teschi",
+    "tocchi"
+  ],
+  "168": [
+    "diceva",
+    "dicevi",
+    "dicevo",
+    "taceva",
+    "tacevo",
+    "educava",
+    "educavi"
+  ],
+  "171": [
+    "educhiate"
+  ],
+  "172": [
+    "educhino"
+  ],
+  "173": [
+    "educhiamo"
+  ],
+  "174": [
+    "dichiara",
+    "dichiari",
+    "dichiarai",
+    "educherai",
+    "educherei"
+  ],
+  "180": [
+    "difesa",
+    "difese",
+    "difesi",
+    "difeso",
+    "divisa",
+    "divise",
+    "divisi"
+  ],
+  "181": [
+    "devota",
+    "devote",
+    "devoti",
+    "devoto",
+    "divide",
+    "dividi",
+    "dovete"
+  ],
+  "182": [
+    "davano",
+    "devono",
+    "divani",
+    "divano",
+    "divina",
+    "divine",
+    "divini"
+  ],
+  "183": [
+    "davamo",
+    "odiavamo",
+    "aiutavamo"
+  ],
+  "184": [
+    "dovere",
+    "divora",
+    "divori",
+    "dovrai",
+    "dovrei",
+    "divorai"
+  ],
+  "185": [
+    "tavola",
+    "tavolo",
+    "tavole",
+    "tavoli",
+    "defluii",
+    "diavoli",
+    "diavolo"
+  ],
+  "186": [
+    "divaga",
+    "divagai",
+    "edifica",
+    "edifici",
+    "edificai",
+    "edificio"
+  ],
+  "187": [
+    "divaghi",
+    "edifichi"
+  ],
+  "188": [
+    "tuffa",
+    "tuffi",
+    "doveva",
+    "dovevi",
+    "dovevo"
+  ],
+  "190": [
+    "depose",
+    "dipesa",
+    "dipese",
+    "dipesi",
+    "dipeso",
+    "topazi",
+    "adiposa"
+  ],
+  "191": [
+    "debiti",
+    "debito",
+    "dubita",
+    "dubiti",
+    "tepida",
+    "tepide",
+    "tepidi"
+  ],
+  "192": [
+    "dipana",
+    "dipani",
+    "tubano",
+    "tubino",
+    "dipanai"
+  ],
+  "193": [
+    "tubiamo"
+  ],
+  "194": [
+    "depura",
+    "depuri",
+    "tepore",
+    "tepori",
+    "tubare",
+    "tuberi",
+    "adopera"
+  ],
+  "195": [
+    "debole",
+    "deboli"
+  ],
+  "196": [
+    "tipica",
+    "tipici",
+    "tipico"
+  ],
+  "197": [
+    "tipiche"
+  ],
+  "198": [
+    "tubavo"
+  ],
+  "199": [
+    "dubbio",
+    "debba",
+    "debbo",
+    "doppi",
+    "dubbi",
+    "tappa",
+    "tappe"
+  ],
+  "200": [
+    "nozze",
+    "unissi",
+    "ansiosa",
+    "ansiose",
+    "ansiosi",
+    "ansioso"
+  ],
+  "201": [
+    "oneste",
+    "onesti",
+    "uniste",
+    "unisti",
+    "insidia",
+    "insidie",
+    "iniziata"
+  ],
+  "202": [
+    "nazione",
+    "inizino",
+    "insegna",
+    "insegne",
+    "insegni",
+    "insigne",
+    "insinua"
+  ],
+  "203": [
+    "insieme",
+    "insiemi",
+    "iniziamo",
+    "nauseiamo"
+  ],
+  "204": [
+    "iniziare",
+    "nauseare",
+    "inizierai",
+    "inizierei",
+    "nauseerai",
+    "nauseerei"
+  ],
+  "205": [
+    "insila",
+    "insili",
+    "nasale",
+    "nasali",
+    "insilai",
+    "nuziale",
+    "nuziali"
+  ],
+  "206": [
+    "insegue",
+    "inseguo"
+  ],
+  "208": [
+    "iniziava",
+    "iniziavi",
+    "iniziavo",
+    "nauseava",
+    "nauseavi",
+    "nauseavo"
+  ],
+  "210": [
+    "notizia",
+    "indizi",
+    "intasa",
+    "intasi",
+    "intesa",
+    "intese",
+    "intesi"
+  ],
+  "211": [
+    "notte",
+    "notti",
+    "andata",
+    "andate",
+    "andati",
+    "andato",
+    "anditi"
+  ],
+  "212": [
+    "notano",
+    "notino",
+    "indegni",
+    "indegno",
+    "nuotano",
+    "nuotino"
+  ],
+  "213": [
+    "intima",
+    "intime",
+    "intimi",
+    "andiamo",
+    "intimai",
+    "notiamo",
+    "anatomia"
+  ],
+  "214": [
+    "entro",
+    "andare",
+    "intero",
+    "natura",
+    "notare",
+    "antri",
+    "antro"
+  ],
+  "215": [
+    "inutile",
+    "indole",
+    "ondula",
+    "onduli",
+    "intagli",
+    "inutili",
+    "ondulai"
+  ],
+  "216": [
+    "antico",
+    "indaga",
+    "indica",
+    "indice",
+    "indici",
+    "indugi",
+    "natica"
+  ],
+  "217": [
+    "antiche",
+    "antichi",
+    "indaghi",
+    "natiche"
+  ],
+  "218": [
+    "andava",
+    "andavi",
+    "andavo",
+    "nativa",
+    "native",
+    "nativi",
+    "nativo"
+  ],
+  "220": [
+    "nunzi",
+    "annusa",
+    "annusi",
+    "nunzio",
+    "annusai"
+  ],
+  "221": [
+    "niente",
+    "annata",
+    "annate",
+    "annida",
+    "annidi",
+    "annoda",
+    "annodi"
+  ],
+  "222": [
+    "nonna",
+    "nonne",
+    "nonni",
+    "nonno",
+    "annoino",
+    "annoiano"
+  ],
+  "223": [
+    "anonima",
+    "anonime",
+    "anonimi",
+    "anonimo",
+    "unanime",
+    "unanimi",
+    "annoiamo"
+  ],
+  "224": [
+    "annoiare",
+    "annoierai",
+    "annoierei"
+  ],
+  "225": [
+    "annuale",
+    "annuali"
+  ],
+  "226": [
+    "annega",
+    "annegai",
+    "innocua",
+    "innocue",
+    "innocui",
+    "innocuo"
+  ],
+  "227": [
+    "neanche",
+    "anneghi"
+  ],
+  "228": [
+    "ninfa",
+    "ninfe",
+    "annoiava",
+    "annoiavi",
+    "annoiavo"
+  ],
+  "231": [
+    "nomade",
+    "nomadi",
+    "animata",
+    "animate",
+    "animati",
+    "animato",
+    "inamida"
+  ],
+  "232": [
+    "nomina",
+    "nomine",
+    "nomini",
+    "animano",
+    "animino",
+    "nominai"
+  ],
+  "233": [
+    "unimmo",
+    "animiamo"
+  ],
+  "234": [
+    "numero",
+    "numera",
+    "numeri",
+    "animare",
+    "enumera",
+    "enumeri",
+    "numerai"
+  ],
+  "235": [
+    "animale",
+    "animali",
+    "anomalia",
+    "anomalie"
+  ],
+  "236": [
+    "nemico",
+    "nemica",
+    "nemici"
+  ],
+  "237": [
+    "nemiche"
+  ],
+  "238": [
+    "animava",
+    "animavi",
+    "animavo"
+  ],
+  "240": [
+    "onerosa",
+    "onerose",
+    "onerosi",
+    "oneroso"
+  ],
+  "241": [
+    "inerte",
+    "inerti",
+    "onorata",
+    "onorate",
+    "onorati",
+    "onorato",
+    "unirete"
+  ],
+  "242": [
+    "onorano",
+    "onorino",
+    "unirono",
+    "ignorano",
+    "ignorino"
+  ],
+  "243": [
+    "enorme",
+    "norma",
+    "norme",
+    "enormi",
+    "inerme",
+    "inermi",
+    "uniremo"
+  ],
+  "244": [
+    "narra",
+    "narri",
+    "narrai",
+    "onorare",
+    "ignorare",
+    "onorerai",
+    "onorerei"
+  ],
+  "246": [
+    "energia",
+    "narice",
+    "narici",
+    "energie"
+  ],
+  "247": [
+    "anarchia",
+    "anarchie"
+  ],
+  "248": [
+    "nervi",
+    "nervo",
+    "onorava",
+    "onoravi",
+    "onoravo",
+    "ignorava",
+    "ignoravi"
+  ],
+  "250": [
+    "inglese",
+    "inalza",
+    "inalzi",
+    "analisi",
+    "inalzai",
+    "inglesi"
+  ],
+  "255": [
+    "nulla",
+    "nella",
+    "nelle",
+    "nello",
+    "nullo",
+    "anelli",
+    "agnelli"
+  ],
+  "256": [
+    "analoga",
+    "analogo",
+    "analogia",
+    "analogie"
+  ],
+  "257": [
+    "analoghe",
+    "analoghi"
+  ],
+  "260": [
+    "incisa",
+    "incise",
+    "inciso",
+    "negozi",
+    "negozia",
+    "negoziai"
+  ],
+  "261": [
+    "incide",
+    "incita",
+    "inciti",
+    "negata",
+    "negate",
+    "negati",
+    "negato"
+  ],
+  "262": [
+    "negano",
+    "uncini",
+    "ungono",
+    "ingenua",
+    "ingenue",
+    "ingenui",
+    "ingenuo"
+  ],
+  "263": [
+    "enigma",
+    "enigmi"
+  ],
+  "264": [
+    "ancora",
+    "nascere",
+    "negra",
+    "negre",
+    "negro",
+    "ancore",
+    "negare"
+  ],
+  "265": [
+    "angolo",
+    "angeli",
+    "angelo",
+    "angoli",
+    "nuclei",
+    "nucleo",
+    "incagli"
+  ],
+  "266": [
+    "angosce",
+    "angoscia"
+  ],
+  "267": [
+    "nacque",
+    "nacqui",
+    "nicchia",
+    "nicchie"
+  ],
+  "268": [
+    "negava",
+    "negavi",
+    "negavo",
+    "nociva",
+    "nocive",
+    "nocivi",
+    "nocivo"
+  ],
+  "269": [
+    "incubi"
+  ],
+  "271": [
+    "inchioda",
+    "inchiodi",
+    "inquieta",
+    "inquiete",
+    "inquieti",
+    "neghiate",
+    "inchiodai"
+  ],
+  "272": [
+    "inchina",
+    "inchini",
+    "neghino",
+    "inchinai"
+  ],
+  "273": [
+    "neghiamo"
+  ],
+  "274": [
+    "negherai",
+    "negherei"
+  ],
+  "280": [
+    "enfasi",
+    "invasa",
+    "invase",
+    "invasi",
+    "novizi",
+    "novizia",
+    "novizie"
+  ],
+  "281": [
+    "nafta",
+    "nafte",
+    "invita",
+    "inviti",
+    "inviata",
+    "inviate",
+    "inviati"
+  ],
+  "282": [
+    "infine",
+    "invano",
+    "invino",
+    "inviano",
+    "univano"
+  ],
+  "283": [
+    "infama",
+    "infame",
+    "infami",
+    "infamai",
+    "inviamo",
+    "univamo"
+  ],
+  "284": [
+    "anfora",
+    "anfore",
+    "inviare",
+    "invierai",
+    "invierei"
+  ],
+  "285": [
+    "infila",
+    "infili",
+    "navale",
+    "navali",
+    "nuvola",
+    "nuvole",
+    "infilai"
+  ],
+  "286": [
+    "invece",
+    "invoca",
+    "naviga",
+    "nevica",
+    "invocai",
+    "navigai",
+    "nevicai"
+  ],
+  "287": [
+    "invochi",
+    "navighi",
+    "nevichi",
+    "unifichi"
+  ],
+  "288": [
+    "inaffi",
+    "inaffia",
+    "inviava",
+    "inviavi",
+    "inviavo",
+    "inaffiai"
+  ],
+  "289": [
+    "anfibi",
+    "anfibio",
+    "xenofobia"
+  ],
+  "291": [
+    "nipote",
+    "nipoti"
+  ],
+  "294": [
+    "inebri",
+    "inebria",
+    "inebriai"
+  ],
+  "295": [
+    "nobile",
+    "nobili",
+    "nubile",
+    "nubili",
+    "inabile",
+    "inabili",
+    "ignobile"
+  ],
+  "299": [
+    "nappa",
+    "nebbia",
+    "nebbie"
+  ],
+  "300": [
+    "massa",
+    "messa",
+    "mezzo",
+    "masse",
+    "massi",
+    "masso",
+    "mazza"
+  ],
+  "301": [
+    "mesta",
+    "mesti",
+    "mista",
+    "miste",
+    "misti",
+    "amaste",
+    "amasti"
+  ],
+  "302": [
+    "emozione",
+    "emozioni"
+  ],
+  "304": [
+    "misura",
+    "misera",
+    "misere",
+    "miseri",
+    "misero",
+    "misure",
+    "misuri"
+  ],
+  "306": [
+    "musica",
+    "mosaici",
+    "mosaico"
+  ],
+  "307": [
+    "musiche"
+  ],
+  "310": [
+    "medusa",
+    "meduse"
+  ],
+  "311": [
+    "matta",
+    "matti",
+    "matto",
+    "metta",
+    "mette",
+    "metti",
+    "metto"
+  ],
+  "312": [
+    "mutano",
+    "mutino",
+    "imitano",
+    "imitino",
+    "mietano",
+    "mietono"
+  ],
+  "313": [
+    "mutiamo",
+    "imitiamo",
+    "mietiamo"
+  ],
+  "314": [
+    "madre",
+    "metro",
+    "materia",
+    "madri",
+    "metri",
+    "matura",
+    "mature"
+  ],
+  "315": [
+    "moduli",
+    "medaglia",
+    "medaglie"
+  ],
+  "316": [
+    "medico",
+    "medici",
+    "mitiga",
+    "modica",
+    "modici",
+    "modico",
+    "mitigai"
+  ],
+  "317": [
+    "mitighi",
+    "modiche"
+  ],
+  "318": [
+    "motivo",
+    "motivi",
+    "mutava",
+    "mutavi",
+    "mutavo",
+    "imitava",
+    "imitavi"
+  ],
+  "320": [
+    "manzi",
+    "manzo",
+    "mensa",
+    "mense",
+    "amnesia",
+    "amnesie",
+    "minuzia"
+  ],
+  "321": [
+    "mente",
+    "mondo",
+    "monte",
+    "minuto",
+    "manda",
+    "mandi",
+    "menta"
+  ],
+  "322": [
+    "menano",
+    "menino",
+    "emanano",
+    "emanino"
+  ],
+  "323": [
+    "minimo",
+    "minima",
+    "minime",
+    "minimi",
+    "meniamo",
+    "omonima",
+    "emaniamo"
+  ],
+  "324": [
+    "minore",
+    "maniera",
+    "menare",
+    "minori",
+    "emanare",
+    "maniere",
+    "menerai"
+  ],
+  "325": [
+    "manuale",
+    "manuali",
+    "mignoli",
+    "mignolo"
+  ],
+  "326": [
+    "manca",
+    "mance",
+    "mangi",
+    "monca",
+    "monco",
+    "mancai",
+    "mancia"
+  ],
+  "327": [
+    "manchi",
+    "monche",
+    "monchi",
+    "maniche",
+    "monache"
+  ],
+  "328": [
+    "menava",
+    "menavi",
+    "menavo",
+    "emanava",
+    "emanavi",
+    "emanavo"
+  ],
+  "332": [
+    "immune",
+    "immuni"
+  ],
+  "333": [
+    "mamma",
+    "mamme",
+    "amammo",
+    "mummia",
+    "mummie"
+  ],
+  "334": [
+    "memoria",
+    "ammiri",
+    "ammirai",
+    "memorie"
+  ],
+  "335": [
+    "ammala",
+    "ammali",
+    "ammalai",
+    "ammalia",
+    "ammaliai"
+  ],
+  "336": [
+    "ammaca",
+    "ammaco",
+    "ammacai"
+  ],
+  "337": [
+    "ammachi"
+  ],
+  "340": [
+    "marzo",
+    "morsa",
+    "morse",
+    "morsi",
+    "morso",
+    "emersa",
+    "emerse"
+  ],
+  "341": [
+    "morte",
+    "marito",
+    "merito",
+    "morta",
+    "morti",
+    "morto",
+    "marita"
+  ],
+  "342": [
+    "marina",
+    "marini",
+    "mirano",
+    "mirini",
+    "mirino",
+    "amarena",
+    "amarene"
+  ],
+  "343": [
+    "marmi",
+    "marmo",
+    "ameremo",
+    "miriamo"
+  ],
+  "344": [
+    "morire",
+    "mirare",
+    "mirerai",
+    "mirerei"
+  ],
+  "345": [
+    "morale",
+    "merli",
+    "morali"
+  ],
+  "346": [
+    "marca",
+    "marce",
+    "merci",
+    "emerge",
+    "emergi",
+    "emergo",
+    "marcia"
+  ],
+  "347": [
+    "marche"
+  ],
+  "348": [
+    "amorfa",
+    "amorfe",
+    "amorfi",
+    "amorfo",
+    "mirava",
+    "miravi",
+    "miravo"
+  ],
+  "350": [
+    "milza",
+    "milze"
+  ],
+  "351": [
+    "molto",
+    "molta",
+    "molte",
+    "molti",
+    "multa",
+    "multe",
+    "malata"
+  ],
+  "352": [
+    "milione",
+    "milano",
+    "mulini",
+    "emulano",
+    "emulino",
+    "maligna",
+    "maligne"
+  ],
+  "353": [
+    "melma",
+    "melme",
+    "emuliamo",
+    "umiliamo"
+  ],
+  "354": [
+    "migliore",
+    "malore",
+    "malori",
+    "molare",
+    "molari",
+    "emulare",
+    "emulerai"
+  ],
+  "355": [
+    "mille",
+    "molla",
+    "molle"
+  ],
+  "356": [
+    "omologa",
+    "maiolica",
+    "omologai"
+  ],
+  "357": [
+    "omologhi",
+    "maioliche"
+  ],
+  "358": [
+    "emulava",
+    "emulavi",
+    "emulavo",
+    "umiliava",
+    "umiliavi",
+    "umiliavo"
+  ],
+  "360": [
+    "amicizia",
+    "amicizie"
+  ],
+  "361": [
+    "omicida",
+    "omicidi",
+    "omicidio"
+  ],
+  "362": [
+    "macina",
+    "macine",
+    "mogano",
+    "macigni",
+    "macigno",
+    "moscone",
+    "mosconi"
+  ],
+  "364": [
+    "magari",
+    "magra",
+    "magre",
+    "magro",
+    "emigra",
+    "emigri",
+    "macera"
+  ],
+  "365": [
+    "mugola",
+    "mugoli",
+    "mescola",
+    "mescoli",
+    "miagola",
+    "miagoli",
+    "miscela"
+  ],
+  "366": [
+    "maggio",
+    "maggi",
+    "micce",
+    "mucca",
+    "magica",
+    "magici",
+    "magico"
+  ],
+  "367": [
+    "maschi",
+    "mischi",
+    "mosche",
+    "mucche",
+    "mucchi",
+    "muschi",
+    "macchia"
+  ],
+  "381": [
+    "moviti",
+    "amavate",
+    "muovete",
+    "muoviti"
+  ],
+  "382": [
+    "amavano",
+    "muovono"
+  ],
+  "383": [
+    "amavamo",
+    "muoviamo"
+  ],
+  "384": [
+    "muovere"
+  ],
+  "388": [
+    "muffa",
+    "muffe",
+    "muoveva",
+    "muovevo"
+  ],
+  "391": [
+    "ambito",
+    "amputa",
+    "amputi",
+    "imbuto",
+    "impeti",
+    "impeto",
+    "imputa"
+  ],
+  "392": [
+    "impegna",
+    "impegni",
+    "impugna",
+    "impugni",
+    "impegnai",
+    "impugnai"
+  ],
+  "394": [
+    "ombra",
+    "ombre",
+    "impara",
+    "impari",
+    "imperi",
+    "impura",
+    "impure"
+  ],
+  "395": [
+    "ampli",
+    "amplia",
+    "emboli",
+    "embolo",
+    "mobile",
+    "mobili",
+    "amabile"
+  ],
+  "396": [
+    "ambigua",
+    "ambigue",
+    "ambigui",
+    "impiega",
+    "impiegai"
+  ],
+  "397": [
+    "impieghi"
+  ],
+  "399": [
+    "mappa",
+    "mappe"
+  ],
+  "400": [
+    "rosso",
+    "russo",
+    "razza",
+    "razze",
+    "razzi",
+    "razzo",
+    "ressa"
+  ],
+  "401": [
+    "resto",
+    "resta",
+    "resti",
+    "araste",
+    "arasti",
+    "restai",
+    "restia"
+  ],
+  "402": [
+    "resina",
+    "resine",
+    "risana",
+    "risani",
+    "risona",
+    "risoni",
+    "razione"
+  ],
+  "403": [
+    "risma",
+    "risme",
+    "eroismi",
+    "eroismo"
+  ],
+  "404": [
+    "resero",
+    "risero",
+    "rosari",
+    "rosario"
+  ],
+  "405": [
+    "rosola",
+    "rosoli",
+    "rosolai"
+  ],
+  "409": [
+    "raspa",
+    "raspi",
+    "rospi",
+    "rospo",
+    "raspai"
+  ],
+  "410": [
+    "radiosa",
+    "radiose",
+    "radiosi",
+    "radioso"
+  ],
+  "411": [
+    "ratti",
+    "ratto",
+    "retta",
+    "rette",
+    "retti",
+    "retto",
+    "ritta"
+  ],
+  "412": [
+    "ordine",
+    "ordano",
+    "ordina",
+    "ordini",
+    "radino",
+    "raduna",
+    "raduni"
+  ],
+  "413": [
+    "ritmi",
+    "ordiamo",
+    "radiamo",
+    "ridiamo",
+    "urtiamo"
+  ],
+  "414": [
+    "ridere",
+    "retro",
+    "aratri",
+    "aratro",
+    "ardore",
+    "ardori",
+    "ordire"
+  ],
+  "415": [
+    "rotola",
+    "rotoli",
+    "artigli",
+    "ritagli",
+    "rotolai",
+    "ritaglia",
+    "ritagliai"
+  ],
+  "416": [
+    "ortica",
+    "radice",
+    "radici",
+    "redige",
+    "redigi",
+    "redigo",
+    "reduce"
+  ],
+  "417": [
+    "ortiche",
+    "eretiche"
+  ],
+  "418": [
+    "ordiva",
+    "ordivi",
+    "ordivo",
+    "rideva",
+    "ridevo",
+    "urtava",
+    "urtavi"
+  ],
+  "420": [
+    "arnese",
+    "ronza",
+    "ronzi",
+    "arnesi",
+    "ronzai",
+    "rognosa",
+    "rognose"
+  ],
+  "421": [
+    "renda",
+    "rende",
+    "rendi",
+    "rendo",
+    "ronda",
+    "ronde",
+    "arando"
+  ],
+  "422": [
+    "renna",
+    "renne",
+    "ornano",
+    "ornino",
+    "regnano",
+    "regnino",
+    "riunano"
+  ],
+  "423": [
+    "orniamo",
+    "rianima",
+    "rianimi",
+    "regniamo",
+    "rianimai",
+    "riuniamo"
+  ],
+  "424": [
+    "riunire",
+    "ornare",
+    "ornerai",
+    "ornerei",
+    "regnare",
+    "regnerai",
+    "regnerei"
+  ],
+  "426": [
+    "ranci",
+    "rango",
+    "arance",
+    "rancio",
+    "arancia",
+    "ironica",
+    "ironici"
+  ],
+  "427": [
+    "ranghi",
+    "ringhi",
+    "ringhia",
+    "ironiche",
+    "ringhiai"
+  ],
+  "428": [
+    "rinvi",
+    "ornava",
+    "ornavi",
+    "ornavo",
+    "rinvia",
+    "rinvii",
+    "regnava"
+  ],
+  "430": [
+    "rimase",
+    "rimasi",
+    "rimise",
+    "rimisi"
+  ],
+  "431": [
+    "armadi",
+    "armata",
+    "armate",
+    "armati",
+    "armato",
+    "remata",
+    "remate"
+  ],
+  "432": [
+    "romano",
+    "armano",
+    "armino",
+    "remano",
+    "remino",
+    "rimane",
+    "rimani"
+  ],
+  "433": [
+    "arammo",
+    "armiamo",
+    "remiamo"
+  ],
+  "434": [
+    "armare",
+    "remare",
+    "rumore",
+    "rumori",
+    "armerai",
+    "armerei",
+    "remerai"
+  ],
+  "435": [
+    "ramaioli",
+    "ramaiolo"
+  ],
+  "438": [
+    "armava",
+    "armavi",
+    "armavo",
+    "remava",
+    "remavi",
+    "remavo",
+    "rimuova"
+  ],
+  "439": [
+    "rampa",
+    "rampe",
+    "romba",
+    "rombi",
+    "rompa",
+    "rompe",
+    "rompi"
+  ],
+  "441": [
+    "arreda",
+    "arredi",
+    "arrota",
+    "arroti",
+    "errata",
+    "errate",
+    "errati"
+  ],
+  "442": [
+    "arrena",
+    "arreni",
+    "errano",
+    "errino",
+    "ararono",
+    "arrenai"
+  ],
+  "443": [
+    "areremo",
+    "erriamo"
+  ],
+  "444": [
+    "errore",
+    "errare",
+    "errori",
+    "orrore",
+    "orrori",
+    "errerai",
+    "errerei"
+  ],
+  "445": [
+    "rurale",
+    "rurali",
+    "irreale"
+  ],
+  "446": [
+    "arroga",
+    "irriga",
+    "arrogai",
+    "irrigai"
+  ],
+  "447": [
+    "arroghi",
+    "irrighi"
+  ],
+  "448": [
+    "arriva",
+    "arrivi",
+    "errava",
+    "erravi",
+    "erravo",
+    "arrivai"
+  ],
+  "450": [
+    "rialza",
+    "rialzi",
+    "rialzai"
+  ],
+  "451": [
+    "orlata",
+    "orlate",
+    "orlati",
+    "orlato",
+    "urlata",
+    "urlate",
+    "urlati"
+  ],
+  "452": [
+    "orlano",
+    "orlino",
+    "urlano",
+    "urlino",
+    "origlino",
+    "origliano"
+  ],
+  "453": [
+    "orliamo",
+    "urliamo",
+    "origliamo"
+  ],
+  "454": [
+    "orlare",
+    "urlare",
+    "orlerai",
+    "orlerei",
+    "urlerai",
+    "urlerei",
+    "origliare"
+  ],
+  "455": [
+    "rulla",
+    "rulli",
+    "rullai",
+    "rullii",
+    "rullio"
+  ],
+  "456": [
+    "relega",
+    "rilega",
+    "orologi",
+    "relegai",
+    "rilegai",
+    "orologio",
+    "orologiai"
+  ],
+  "457": [
+    "releghi",
+    "rileghi",
+    "reliquia",
+    "reliquie"
+  ],
+  "458": [
+    "orlava",
+    "orlavi",
+    "orlavo",
+    "rileva",
+    "rilevi",
+    "urlava",
+    "urlavi"
+  ],
+  "460": [
+    "recisa",
+    "recise",
+    "recisi",
+    "reciso",
+    "arguzia",
+    "arguzie"
+  ],
+  "461": [
+    "arcata",
+    "arcate",
+    "arguta",
+    "argute",
+    "arguti",
+    "arguto",
+    "recata"
+  ],
+  "462": [
+    "origine",
+    "ragione",
+    "regione",
+    "argina",
+    "argine",
+    "argini",
+    "organi"
+  ],
+  "463": [
+    "regime",
+    "regimi",
+    "ricama",
+    "ricami",
+    "ricamai",
+    "erigiamo",
+    "riusciamo"
+  ],
+  "464": [
+    "recare",
+    "riuscire",
+    "rigore",
+    "rigori",
+    "erigere",
+    "riuscirai",
+    "riuscirei"
+  ],
+  "465": [
+    "regala",
+    "regale",
+    "regali",
+    "regola",
+    "regole",
+    "regoli",
+    "regalai"
+  ],
+  "466": [
+    "ricco",
+    "raggi",
+    "regge",
+    "reggi",
+    "reggo",
+    "ricca",
+    "ricci"
+  ],
+  "467": [
+    "orecchio",
+    "raschi",
+    "ricche",
+    "ricchi",
+    "rischi",
+    "raschia",
+    "orecchie"
+  ],
+  "468": [
+    "recava",
+    "recavi",
+    "recavo",
+    "ricava",
+    "ricavi",
+    "riceva",
+    "ricevi"
+  ],
+  "471": [
+    "orchidea",
+    "orchidee",
+    "rechiate",
+    "richieda",
+    "richiede",
+    "richiedi",
+    "richiedo"
+  ],
+  "472": [
+    "rechino"
+  ],
+  "473": [
+    "rechiamo",
+    "richiama",
+    "richiami",
+    "richiamai"
+  ],
+  "474": [
+    "recherai",
+    "recherei"
+  ],
+  "478": [
+    "archivi",
+    "archivia",
+    "archiviai"
+  ],
+  "481": [
+    "riveda",
+    "rivede",
+    "rivedi",
+    "rivedo",
+    "ruvida",
+    "ruvide",
+    "ruvidi"
+  ],
+  "482": [
+    "orfana",
+    "orfane",
+    "orfani",
+    "orfano",
+    "rovina",
+    "rovine",
+    "rovini"
+  ],
+  "483": [
+    "aravamo",
+    "eravamo",
+    "riaviamo"
+  ],
+  "484": [
+    "riavere",
+    "riferii",
+    "riaverai",
+    "riaverei"
+  ],
+  "485": [
+    "rivale",
+    "rivali",
+    "rivela",
+    "riveli",
+    "rivelai"
+  ],
+  "486": [
+    "revoca",
+    "rifugi",
+    "revocai",
+    "rievoca",
+    "rovesci",
+    "rievocai",
+    "rovescia"
+  ],
+  "487": [
+    "revochi",
+    "rievochi"
+  ],
+  "488": [
+    "riaveva",
+    "riavevi",
+    "riavevo"
+  ],
+  "490": [
+    "riposa",
+    "riposi",
+    "riposai"
+  ],
+  "491": [
+    "rapido",
+    "orbita",
+    "orbite",
+    "rapata",
+    "rapate",
+    "rapati",
+    "rapato"
+  ],
+  "492": [
+    "rapano",
+    "rubano",
+    "rubini",
+    "rubino",
+    "urbana",
+    "urbane",
+    "urbani"
+  ],
+  "493": [
+    "rapiamo",
+    "rubiamo"
+  ],
+  "494": [
+    "rapare",
+    "rapire",
+    "ripara",
+    "ripari",
+    "rubare",
+    "raperai",
+    "raperei"
+  ],
+  "495": [
+    "ripulii"
+  ],
+  "496": [
+    "rapace",
+    "rapaci",
+    "ripaga",
+    "arabica",
+    "rapisca",
+    "rapisce",
+    "rapisci"
+  ],
+  "497": [
+    "ripaghi",
+    "ripieghi"
+  ],
+  "498": [
+    "rapava",
+    "rapavi",
+    "rapavo",
+    "rapiva",
+    "rapivi",
+    "rapivo",
+    "rubava"
+  ],
+  "499": [
+    "ruppe",
+    "rabbia",
+    "rabbie"
+  ],
+  "500": [
+    "lessa",
+    "lesse",
+    "lessi",
+    "lussi",
+    "lessai",
+    "olezza",
+    "olezzi"
+  ],
+  "501": [
+    "lesta",
+    "leste",
+    "lesti",
+    "lesto",
+    "lista",
+    "liste",
+    "alzata"
+  ],
+  "502": [
+    "alzano",
+    "alzino",
+    "lasagna",
+    "lasagne",
+    "lezione",
+    "lezioni",
+    "lozione"
+  ],
+  "503": [
+    "alziamo"
+  ],
+  "504": [
+    "alzare",
+    "alzerai",
+    "alzerei"
+  ],
+  "508": [
+    "alzava",
+    "alzavi",
+    "alzavo",
+    "elusiva",
+    "elusive",
+    "elusivi",
+    "elusivo"
+  ],
+  "510": [
+    "letizia",
+    "letizie"
+  ],
+  "511": [
+    "latte",
+    "letto",
+    "lotta",
+    "latta",
+    "letta",
+    "lette",
+    "letti"
+  ],
+  "512": [
+    "latino",
+    "latini",
+    "lodano",
+    "lodino",
+    "eludono"
+  ],
+  "513": [
+    "ultimo",
+    "letame",
+    "letami",
+    "ultima",
+    "ultime",
+    "ultimi",
+    "lodiamo"
+  ],
+  "514": [
+    "altro",
+    "oltre",
+    "altra",
+    "altre",
+    "altri",
+    "ladra",
+    "ladre"
+  ],
+  "516": [
+    "litiga",
+    "litigai"
+  ],
+  "517": [
+    "litighi"
+  ],
+  "518": [
+    "lodava",
+    "lodavi",
+    "lodavo"
+  ],
+  "520": [
+    "lenza",
+    "lenze",
+    "lanosa",
+    "lanose",
+    "lanosi",
+    "lanoso"
+  ],
+  "521": [
+    "landa",
+    "lande",
+    "lente",
+    "lenti",
+    "lento",
+    "linda",
+    "linde"
+  ],
+  "522": [
+    "alunna",
+    "alunne",
+    "alunni",
+    "alunno",
+    "alienano",
+    "alienino"
+  ],
+  "523": [
+    "legname",
+    "legnami",
+    "alieniamo"
+  ],
+  "524": [
+    "lineare",
+    "alienare",
+    "alienerai",
+    "alienerei"
+  ],
+  "526": [
+    "lungo",
+    "lingua",
+    "lance",
+    "lanci",
+    "lunga",
+    "elenca",
+    "lancia"
+  ],
+  "527": [
+    "lunghe",
+    "lunghi",
+    "elenchi"
+  ],
+  "528": [
+    "alienava",
+    "alienavi",
+    "alienavo"
+  ],
+  "531": [
+    "limite",
+    "limita",
+    "limiti",
+    "limitai"
+  ],
+  "532": [
+    "almeno",
+    "lamina",
+    "lamine",
+    "limone",
+    "limoni",
+    "elimina",
+    "elimini"
+  ],
+  "533": [
+    "oliammo"
+  ],
+  "534": [
+    "lamiera",
+    "lamiere"
+  ],
+  "536": [
+    "lumaca"
+  ],
+  "537": [
+    "lumache"
+  ],
+  "539": [
+    "lampi",
+    "lampo",
+    "lembi",
+    "lembo",
+    "lambii"
+  ],
+  "540": [
+    "gloriosa",
+    "gloriose",
+    "gloriosi",
+    "glorioso"
+  ],
+  "541": [
+    "lorda",
+    "lorde",
+    "lordi",
+    "olierete"
+  ],
+  "542": [
+    "oliarono"
+  ],
+  "543": [
+    "olieremo"
+  ],
+  "546": [
+    "largo",
+    "larga",
+    "lerce",
+    "lerci",
+    "lercia",
+    "lercio",
+    "lirica"
+  ],
+  "547": [
+    "larghe",
+    "larghi",
+    "liriche"
+  ],
+  "550": [
+    "illesa",
+    "illese",
+    "illesi",
+    "illeso",
+    "illusa",
+    "illuse",
+    "illusi"
+  ],
+  "551": [
+    "illude",
+    "illudi",
+    "illudo",
+    "alleata",
+    "alleate",
+    "alleati",
+    "alleato"
+  ],
+  "552": [
+    "allena",
+    "allenai",
+    "ululano",
+    "ululino"
+  ],
+  "553": [
+    "ululiamo"
+  ],
+  "554": [
+    "allora",
+    "allori",
+    "alloro",
+    "ululare",
+    "ululerei"
+  ],
+  "556": [
+    "allaga",
+    "allega",
+    "alluce",
+    "alluci",
+    "allagai",
+    "allegai"
+  ],
+  "557": [
+    "allaghi",
+    "alleghi"
+  ],
+  "558": [
+    "alleva",
+    "allevi",
+    "allevai",
+    "allevia",
+    "allieva",
+    "allieve",
+    "allievi"
+  ],
+  "561": [
+    "lecita",
+    "lecite",
+    "leciti",
+    "lecito",
+    "legata",
+    "legate",
+    "legati"
+  ],
+  "562": [
+    "alcuno",
+    "alcuna",
+    "alcune",
+    "alcuni",
+    "laguna",
+    "lagune",
+    "legano"
+  ],
+  "563": [
+    "legame",
+    "legami",
+    "legume",
+    "legumi",
+    "elogiamo",
+    "lasciamo"
+  ],
+  "564": [
+    "legare",
+    "lasciare",
+    "lacera",
+    "lacere",
+    "laceri",
+    "logora",
+    "logori"
+  ],
+  "565": [
+    "alcoli",
+    "legale",
+    "legali",
+    "locale",
+    "locali",
+    "glaciale",
+    "glaciali"
+  ],
+  "566": [
+    "legge",
+    "lacca",
+    "lacci",
+    "lecca",
+    "lecci",
+    "legga",
+    "leggi"
+  ],
+  "567": [
+    "lecchi",
+    "lische",
+    "losche",
+    "loschi",
+    "logiche"
+  ],
+  "568": [
+    "legava",
+    "legavi",
+    "legavo",
+    "elogiava",
+    "elogiavi",
+    "elogiavo",
+    "lasciava"
+  ],
+  "571": [
+    "liquida",
+    "liquide",
+    "liquidi",
+    "aliquota",
+    "aliquote",
+    "leghiate",
+    "liquidai"
+  ],
+  "572": [
+    "leghino"
+  ],
+  "573": [
+    "leghiamo"
+  ],
+  "574": [
+    "liquore",
+    "liquori",
+    "legherai",
+    "legherei"
+  ],
+  "576": [
+    "loquace",
+    "loquaci"
+  ],
+  "578": [
+    "liquefi",
+    "liquefai"
+  ],
+  "581": [
+    "lavata",
+    "lavate",
+    "lavati",
+    "lavato",
+    "levata",
+    "levate",
+    "levati"
+  ],
+  "582": [
+    "lavano",
+    "lavino",
+    "levano",
+    "levino",
+    "elevano",
+    "elevino",
+    "lavagna"
+  ],
+  "583": [
+    "laviamo",
+    "leviamo",
+    "eleviamo",
+    "oliavamo"
+  ],
+  "584": [
+    "lavoro",
+    "levare",
+    "elevare",
+    "lavare",
+    "lavora",
+    "lavori",
+    "alveare"
+  ],
+  "586": [
+    "leviga",
+    "levigai"
+  ],
+  "587": [
+    "levighi"
+  ],
+  "588": [
+    "lavava",
+    "lavavi",
+    "lavavo",
+    "levava",
+    "levavi",
+    "levavo",
+    "elevava"
+  ],
+  "589": [
+    "lavabi",
+    "lavabo"
+  ],
+  "591": [
+    "lapide",
+    "lapidi"
+  ],
+  "592": [
+    "albina",
+    "albine",
+    "albini",
+    "albino"
+  ],
+  "594": [
+    "libro",
+    "albero",
+    "libero",
+    "lepre",
+    "lepri",
+    "libra",
+    "libre"
+  ],
+  "595": [
+    "globale",
+    "globali"
+  ],
+  "600": [
+    "cassa",
+    "casse",
+    "cessa",
+    "cessi",
+    "cozza",
+    "cozze",
+    "cozzi"
+  ],
+  "601": [
+    "costa",
+    "gesto",
+    "gusto",
+    "giusto",
+    "casta",
+    "caste",
+    "casti"
+  ],
+  "602": [
+    "causano",
+    "causino",
+    "scusano",
+    "scusino",
+    "coesione",
+    "coesioni"
+  ],
+  "603": [
+    "cosmi",
+    "cosmo",
+    "egoismi",
+    "egoismo",
+    "causiamo",
+    "scusiamo"
+  ],
+  "604": [
+    "scusare",
+    "causare",
+    "scesero",
+    "causerai",
+    "causerei",
+    "scuserai",
+    "scuserei"
+  ],
+  "605": [
+    "casuale",
+    "casuali"
+  ],
+  "608": [
+    "causava",
+    "causavi",
+    "causavo",
+    "scusava",
+    "scusavi",
+    "scusavo"
+  ],
+  "610": [
+    "giudizio",
+    "giudizi"
+  ],
+  "611": [
+    "gatto",
+    "cadde",
+    "caddi",
+    "cotta",
+    "cotte",
+    "cotti",
+    "cotto"
+  ],
+  "612": [
+    "cadono",
+    "catena",
+    "catene",
+    "catini",
+    "catino",
+    "cedono",
+    "citano"
+  ],
+  "613": [
+    "citiamo",
+    "agitiamo",
+    "guadiamo",
+    "guidiamo"
+  ],
+  "614": [
+    "cadere",
+    "godere",
+    "guidare",
+    "cedri",
+    "cetra",
+    "cetre",
+    "cedere"
+  ],
+  "615": [
+    "cedola",
+    "cedole",
+    "cautela",
+    "cautele",
+    "ciotola",
+    "ciotole",
+    "scatola"
+  ],
+  "616": [
+    "codici",
+    "giudica",
+    "giudice",
+    "giudici",
+    "giudicai",
+    "scudisci"
+  ],
+  "617": [
+    "giudichi"
+  ],
+  "618": [
+    "cadeva",
+    "citava",
+    "citavi",
+    "citavo",
+    "agitava",
+    "agitavi",
+    "agitavo"
+  ],
+  "620": [
+    "scienza",
+    "cinse",
+    "giunse",
+    "giunsi",
+    "agenzia",
+    "agenzie",
+    "scansia"
+  ],
+  "621": [
+    "conto",
+    "gente",
+    "canta",
+    "canti",
+    "cento",
+    "cinta",
+    "conta"
+  ],
+  "622": [
+    "canna",
+    "canne",
+    "cenni",
+    "gonna",
+    "gonne",
+    "cenano",
+    "cenino"
+  ],
+  "623": [
+    "cinema",
+    "ceniamo",
+    "cognome",
+    "cognomi",
+    "coniamo",
+    "economia",
+    "economie"
+  ],
+  "624": [
+    "genere",
+    "canora",
+    "canore",
+    "canori",
+    "canoro",
+    "cenare",
+    "cenere"
+  ],
+  "625": [
+    "canale",
+    "canali",
+    "canile",
+    "canili",
+    "conigli",
+    "giungla",
+    "giungle"
+  ],
+  "626": [
+    "conci",
+    "ganci",
+    "cinica",
+    "cinici",
+    "cinico",
+    "concia",
+    "gancio"
+  ],
+  "627": [
+    "cinque",
+    "cinghia",
+    "cinghie",
+    "ciniche",
+    "giunchi",
+    "coniughi"
+  ],
+  "628": [
+    "gonfi",
+    "cenava",
+    "cenavi",
+    "cenavo",
+    "gonfia",
+    "coniava",
+    "coniavi"
+  ],
+  "629": [
+    "canapa"
+  ],
+  "630": [
+    "comizi",
+    "comizio"
+  ],
+  "631": [
+    "comodo",
+    "cometa",
+    "comete",
+    "comoda",
+    "comode",
+    "comodi",
+    "gemiti"
+  ],
+  "632": [
+    "comune",
+    "camini",
+    "camino",
+    "comuni"
+  ],
+  "633": [
+    "gamma",
+    "gemma",
+    "gemme",
+    "gomma",
+    "gomme",
+    "gioimmo",
+    "scimmia"
+  ],
+  "634": [
+    "camera",
+    "camere"
+  ],
+  "635": [
+    "cumuli"
+  ],
+  "636": [
+    "cimice",
+    "cimici",
+    "comica",
+    "comici",
+    "comico",
+    "camosci",
+    "camoscio"
+  ],
+  "637": [
+    "comiche"
+  ],
+  "639": [
+    "campo",
+    "gamba",
+    "cambi",
+    "campa",
+    "gambe",
+    "gambi",
+    "gambo"
+  ],
+  "640": [
+    "corsa",
+    "corso",
+    "crisi",
+    "grazia",
+    "grazie",
+    "corse",
+    "corsi"
+  ],
+  "641": [
+    "carta",
+    "certo",
+    "grado",
+    "guardia",
+    "carte",
+    "certa",
+    "certe"
+  ],
+  "642": [
+    "carne",
+    "giorno",
+    "corna",
+    "crani",
+    "cruna",
+    "crune",
+    "grane"
+  ],
+  "643": [
+    "crema",
+    "creme",
+    "cremi",
+    "germe",
+    "germi",
+    "agrume",
+    "agrumi"
+  ],
+  "644": [
+    "creare",
+    "girare",
+    "guerra",
+    "carro",
+    "corre",
+    "corri",
+    "curare"
+  ],
+  "645": [
+    "cereale",
+    "cereali"
+  ],
+  "646": [
+    "circa",
+    "croce",
+    "greco",
+    "grigio",
+    "cerca",
+    "circo",
+    "croci"
+  ],
+  "647": [
+    "cerchi",
+    "circhi",
+    "gerghi",
+    "gorghi",
+    "greche",
+    "carichi",
+    "scariche"
+  ],
+  "648": [
+    "grave",
+    "cervi",
+    "cervo",
+    "corvi",
+    "corvo",
+    "curve",
+    "curvi"
+  ],
+  "649": [
+    "corpo",
+    "corpi",
+    "crepa",
+    "crepe",
+    "crepi",
+    "acerba",
+    "acerbe"
+  ],
+  "650": [
+    "calze",
+    "calzi",
+    "colse",
+    "gelsi",
+    "gelso",
+    "calzai",
+    "golosa"
+  ],
+  "651": [
+    "caldo",
+    "calda",
+    "calde",
+    "caldi",
+    "colta",
+    "colti",
+    "colto"
+  ],
+  "652": [
+    "calano",
+    "calino",
+    "celano",
+    "celino",
+    "colano",
+    "colini",
+    "colino"
+  ],
+  "653": [
+    "calma",
+    "calme",
+    "calmi",
+    "clima",
+    "climi",
+    "colma",
+    "colme"
+  ],
+  "654": [
+    "colore",
+    "coloro",
+    "scegliere",
+    "clero",
+    "calare",
+    "calore",
+    "calori"
+  ],
+  "655": [
+    "collo",
+    "giallo",
+    "calli",
+    "callo",
+    "cella",
+    "celle",
+    "colla"
+  ],
+  "656": [
+    "calcio",
+    "calci",
+    "calice",
+    "calici",
+    "scelga",
+    "scelgo",
+    "ciliege"
+  ],
+  "658": [
+    "calva",
+    "calve",
+    "calvi",
+    "calvo",
+    "golfi",
+    "golfo",
+    "calava"
+  ],
+  "659": [
+    "colpa",
+    "colpo",
+    "colpe",
+    "celibe",
+    "celibi",
+    "colpii",
+    "scialba"
+  ],
+  "660": [
+    "accasa",
+    "accasi",
+    "accesa",
+    "accese",
+    "accesi",
+    "acceso",
+    "accusa"
+  ],
+  "661": [
+    "accada",
+    "accade",
+    "accadi",
+    "accado",
+    "accoda",
+    "cicuta",
+    "cicute"
+  ],
+  "662": [
+    "cucina",
+    "ciascuno",
+    "cucine",
+    "cucini",
+    "cugina",
+    "cugine",
+    "cugini"
+  ],
+  "664": [
+    "giocare",
+    "aggira",
+    "aggiri",
+    "aggirai",
+    "cicoria",
+    "cuocere",
+    "giacere"
+  ],
+  "665": [
+    "cicli",
+    "ciclo",
+    "cigola",
+    "cigoli",
+    "cuculi",
+    "cuculo",
+    "accigli"
+  ],
+  "666": [
+    "cacce",
+    "cacci",
+    "cicca",
+    "gocce",
+    "acceca",
+    "caccia",
+    "ciocca"
+  ],
+  "667": [
+    "caschi",
+    "cicche",
+    "accechi",
+    "ciocche",
+    "scacchi",
+    "sciacqu",
+    "acciughe"
+  ],
+  "668": [
+    "cuoceva",
+    "giaceva",
+    "giocava",
+    "giocavi",
+    "giocavo",
+    "asciugava",
+    "asciugavi"
+  ],
+  "669": [
+    "occupa",
+    "occupi",
+    "occupai"
+  ],
+  "671": [
+    "scheda",
+    "schede",
+    "acquieta",
+    "acquieti",
+    "occhiata",
+    "occhiate",
+    "acquietai"
+  ],
+  "672": [
+    "schiena",
+    "schiene",
+    "giochino",
+    "asciughino"
+  ],
+  "673": [
+    "schema",
+    "schemi",
+    "schiuma",
+    "schiume",
+    "giochiamo"
+  ],
+  "674": [
+    "acquari",
+    "schiera",
+    "schieri",
+    "acquario",
+    "schiarii",
+    "schierai",
+    "giocherai"
+  ],
+  "675": [
+    "occhiali"
+  ],
+  "678": [
+    "schiava",
+    "schiave",
+    "schiavi",
+    "schiavo"
+  ],
+  "681": [
+    "cavata",
+    "cavate",
+    "cavati",
+    "cavato",
+    "covata",
+    "covate",
+    "covati"
+  ],
+  "682": [
+    "giovane",
+    "cavano",
+    "cavino",
+    "cofani",
+    "cofano",
+    "covano",
+    "covino"
+  ],
+  "683": [
+    "caviamo",
+    "coviamo",
+    "gioivamo",
+    "gioviamo",
+    "scaviamo",
+    "scoviamo",
+    "uscivamo"
+  ],
+  "684": [
+    "cifra",
+    "cifre",
+    "cavare",
+    "covare",
+    "caverai",
+    "caverei",
+    "coverai"
+  ],
+  "685": [
+    "civile",
+    "cavoli",
+    "cavolo",
+    "civili",
+    "acefala",
+    "acefale",
+    "acefali"
+  ],
+  "688": [
+    "goffa",
+    "goffe",
+    "goffi",
+    "goffo",
+    "cavava",
+    "cavavi",
+    "cavavo"
+  ],
+  "691": [
+    "capita",
+    "coabita",
+    "coabiti",
+    "copiata",
+    "copiate",
+    "copiati",
+    "copiato"
+  ],
+  "692": [
+    "cabina",
+    "cabine",
+    "copino",
+    "copiano",
+    "sciupano",
+    "sciupino"
+  ],
+  "693": [
+    "copiamo",
+    "sciupiamo"
+  ],
+  "694": [
+    "capire",
+    "capra",
+    "capre",
+    "copra",
+    "copre",
+    "copro",
+    "cipria"
+  ],
+  "695": [
+    "cupola",
+    "cupole",
+    "scapola",
+    "scapole",
+    "scapoli",
+    "scapolo",
+    "giubilei"
+  ],
+  "696": [
+    "capace",
+    "capaci",
+    "capisce",
+    "capisco"
+  ],
+  "698": [
+    "copiava",
+    "copiavi",
+    "copiavo",
+    "sciupava",
+    "sciupavi",
+    "sciupavo"
+  ],
+  "699": [
+    "gobba",
+    "gobbe",
+    "gobbi",
+    "coppia",
+    "coppie",
+    "gabbia",
+    "gabbie"
+  ],
+  "701": [
+    "questo",
+    "questa",
+    "queste",
+    "questi",
+    "chiesta",
+    "chiesti",
+    "chiesto"
+  ],
+  "702": [
+    "equazione",
+    "equazioni"
+  ],
+  "704": [
+    "chiesero",
+    "chiusura",
+    "chiusure"
+  ],
+  "711": [
+    "chiatta",
+    "chiatte",
+    "ghiotta",
+    "ghiotte",
+    "ghiotti",
+    "ghiotto",
+    "quotata"
+  ],
+  "712": [
+    "quotano",
+    "quotino",
+    "chiedono",
+    "chiudono"
+  ],
+  "713": [
+    "chiedimi",
+    "quotiamo",
+    "chiediamo"
+  ],
+  "714": [
+    "quadro",
+    "chiedere",
+    "chiudere",
+    "quadre",
+    "quadri",
+    "quotare",
+    "equatore"
+  ],
+  "715": [
+    "chiedilo"
+  ],
+  "718": [
+    "quotava",
+    "quotavi",
+    "quotavo",
+    "chiedeva",
+    "chiedevo",
+    "chiudeva",
+    "chiudevo"
+  ],
+  "720": [
+    "equinozi",
+    "equinozio"
+  ],
+  "721": [
+    "quanto",
+    "quindi",
+    "quando",
+    "quante",
+    "quanti",
+    "quinto",
+    "chinata"
+  ],
+  "722": [
+    "hanno",
+    "chinano",
+    "chinino"
+  ],
+  "723": [
+    "chiniamo"
+  ],
+  "724": [
+    "chinare",
+    "chinerai",
+    "chinerei"
+  ],
+  "727": [
+    "chiunque"
+  ],
+  "728": [
+    "chinava",
+    "chinavi",
+    "chinavo"
+  ],
+  "731": [
+    "chiamata",
+    "chiamate",
+    "chiamati",
+    "chiamato",
+    "chiamiate"
+  ],
+  "732": [
+    "chiamano",
+    "chiamino"
+  ],
+  "733": [
+    "chiamiamo"
+  ],
+  "734": [
+    "chiamare",
+    "chiamerai",
+    "chiamerei"
+  ],
+  "736": [
+    "chimica",
+    "chimici",
+    "chimico"
+  ],
+  "737": [
+    "chimiche"
+  ],
+  "738": [
+    "chiamava",
+    "chiamavi",
+    "chiamavo"
+  ],
+  "740": [
+    "quarzi",
+    "quarzo"
+  ],
+  "741": [
+    "quarto",
+    "chiarito"
+  ],
+  "744": [
+    "chiarire"
+  ],
+  "745": [
+    "querela",
+    "querele",
+    "quereli",
+    "querelai"
+  ],
+  "746": [
+    "querce",
+    "chiarisce"
+  ],
+  "752": [
+    "aquilone",
+    "aquiloni"
+  ],
+  "754": [
+    "qualora"
+  ],
+  "755": [
+    "quello",
+    "quella",
+    "quelle",
+    "quelli"
+  ],
+  "757": [
+    "qualche"
+  ],
+  "766": [
+    "chiocce",
+    "ghiacci",
+    "chioccia",
+    "ghiaccia",
+    "ghiacciai"
+  ],
+  "767": [
+    "chioschi"
+  ],
+  "785": [
+    "equivala",
+    "equivale",
+    "equivali",
+    "equivalo",
+    "equivalai"
+  ],
+  "786": [
+    "equivoci"
+  ],
+  "787": [
+    "equivochi"
+  ],
+  "800": [
+    "fessa",
+    "fesse",
+    "fessi",
+    "fesso",
+    "fissa",
+    "fisse",
+    "fissi"
+  ],
+  "801": [
+    "festa",
+    "vasto",
+    "vista",
+    "visita",
+    "feste",
+    "foste",
+    "fosti"
+  ],
+  "802": [
+    "visone",
+    "visoni",
+    "vizino",
+    "fusione",
+    "fusioni",
+    "visione",
+    "visioni"
+  ],
+  "803": [
+    "viziamo"
+  ],
+  "804": [
+    "fusaro",
+    "visiera",
+    "visiere",
+    "viziare",
+    "vizierai",
+    "vizierei"
+  ],
+  "806": [
+    "fisica",
+    "fisici",
+    "fisico"
+  ],
+  "807": [
+    "fisiche"
+  ],
+  "808": [
+    "visiva",
+    "evasiva",
+    "evasive",
+    "evasivi",
+    "evasivo",
+    "viziava",
+    "viziavi"
+  ],
+  "809": [
+    "vespa",
+    "vespe",
+    "vispa",
+    "vispe",
+    "vispi",
+    "vispo"
+  ],
+  "811": [
+    "fatto",
+    "fatta",
+    "fatte",
+    "fatti",
+    "fetta",
+    "fette",
+    "fitta"
+  ],
+  "812": [
+    "fatene",
+    "vadano",
+    "vedano",
+    "vedono",
+    "evitano",
+    "evitino",
+    "fiutano"
+  ],
+  "813": [
+    "fatemi",
+    "vidima",
+    "vidimi",
+    "vediamo",
+    "vidimai",
+    "evitiamo",
+    "fiutiamo"
+  ],
+  "814": [
+    "futuro",
+    "vedere",
+    "evitare",
+    "vetri",
+    "federe",
+    "fodere",
+    "foderi"
+  ],
+  "815": [
+    "fatale",
+    "fatali",
+    "fatela",
+    "fatelo",
+    "fedele",
+    "fedeli",
+    "futile"
+  ],
+  "816": [
+    "fatica",
+    "fiducia",
+    "fateci",
+    "faticai"
+  ],
+  "817": [
+    "fatiche",
+    "fatichi"
+  ],
+  "818": [
+    "fatevi",
+    "vedeva",
+    "vedevi",
+    "vedevo",
+    "vedova",
+    "vedove",
+    "vedovi"
+  ],
+  "820": [
+    "finse",
+    "finsi",
+    "avanza",
+    "avanzi",
+    "avanzai"
+  ],
+  "821": [
+    "fondo",
+    "vento",
+    "avanti",
+    "fante",
+    "fanti",
+    "fende",
+    "fendi"
+  ],
+  "822": [
+    "fanne",
+    "fanno",
+    "vanno",
+    "venne",
+    "venni",
+    "finano"
+  ],
+  "823": [
+    "finiamo",
+    "veniamo"
+  ],
+  "824": [
+    "finire",
+    "venire",
+    "finora",
+    "venere",
+    "veneri",
+    "finirai",
+    "finirei"
+  ],
+  "825": [
+    "fanale",
+    "fanali",
+    "finale",
+    "finali",
+    "venale",
+    "venali",
+    "veniali"
+  ],
+  "826": [
+    "fianco",
+    "fango",
+    "finge",
+    "fingi",
+    "fingo",
+    "funge",
+    "fungo"
+  ],
+  "827": [
+    "fanghi",
+    "vanghe",
+    "vanghi",
+    "ovunque"
+  ],
+  "828": [
+    "finiva",
+    "finivi",
+    "finivo",
+    "veniva",
+    "venivi",
+    "venivo"
+  ],
+  "830": [
+    "famoso",
+    "famosa",
+    "famose",
+    "famosi"
+  ],
+  "831": [
+    "fumata",
+    "fumate",
+    "fumati",
+    "fumato",
+    "fumiate"
+  ],
+  "832": [
+    "fumano",
+    "fumino",
+    "vimini",
+    "fiumana",
+    "fiumane"
+  ],
+  "833": [
+    "fammi",
+    "fummo",
+    "fiamma",
+    "fiamme",
+    "fumiamo"
+  ],
+  "834": [
+    "fumare",
+    "fumerai",
+    "fumerei"
+  ],
+  "835": [
+    "famiglia",
+    "famiglie",
+    "fumaioli",
+    "fumaiolo"
+  ],
+  "838": [
+    "fumava",
+    "fumavi",
+    "fumavo"
+  ],
+  "839": [
+    "vampi"
+  ],
+  "840": [
+    "forse",
+    "forza",
+    "frase",
+    "verso",
+    "farsi",
+    "forze",
+    "forzi"
+  ],
+  "841": [
+    "forte",
+    "verde",
+    "farti",
+    "forti",
+    "frate",
+    "frati",
+    "froda"
+  ],
+  "842": [
+    "forno",
+    "frana",
+    "frane",
+    "frani",
+    "freni",
+    "farina",
+    "farine"
+  ],
+  "843": [
+    "fermo",
+    "forma",
+    "farmi",
+    "ferma",
+    "ferme",
+    "fermi",
+    "firma"
+  ],
+  "844": [
+    "ferro",
+    "ferire",
+    "ferri",
+    "forare",
+    "furore",
+    "furori",
+    "varare"
+  ],
+  "845": [
+    "farla",
+    "farle",
+    "farli",
+    "farlo",
+    "averla",
+    "fargli",
+    "virile"
+  ],
+  "846": [
+    "fresco",
+    "fruga",
+    "verga",
+    "feroce",
+    "feroci",
+    "fresca",
+    "frugai"
+  ],
+  "847": [
+    "frughi",
+    "varchi",
+    "verghe"
+  ],
+  "848": [
+    "farvi",
+    "feriva",
+    "ferivi",
+    "ferivo",
+    "forava",
+    "foravi",
+    "foravo"
+  ],
+  "849": [
+    "furba",
+    "furbe",
+    "furbi",
+    "furbo",
+    "verbi",
+    "verbo"
+  ],
+  "850": [
+    "falsa",
+    "false",
+    "falsi",
+    "volse",
+    "vagliasi"
+  ],
+  "851": [
+    "volta",
+    "volto",
+    "falda",
+    "falde",
+    "folta",
+    "folte",
+    "folti"
+  ],
+  "852": [
+    "filano",
+    "filino",
+    "fluano",
+    "velano",
+    "veleni",
+    "veleno",
+    "velina"
+  ],
+  "853": [
+    "volume",
+    "volumi",
+    "filiamo",
+    "fluiamo",
+    "veliamo",
+    "voliamo",
+    "vagliamo"
+  ],
+  "854": [
+    "valere",
+    "valore",
+    "volare",
+    "volere",
+    "filare",
+    "fluire",
+    "valori"
+  ],
+  "855": [
+    "folla",
+    "valle",
+    "villa",
+    "falla",
+    "falle",
+    "folle",
+    "valli"
+  ],
+  "856": [
+    "felice",
+    "falce",
+    "falci",
+    "falco",
+    "valga",
+    "valgo",
+    "volge"
+  ],
+  "857": [
+    "falchi",
+    "volghi",
+    "valichi"
+  ],
+  "858": [
+    "evolve",
+    "filava",
+    "filavi",
+    "filavo",
+    "fluiva",
+    "fluivi",
+    "fluivo"
+  ],
+  "859": [
+    "volpe",
+    "volpi"
+  ],
+  "860": [
+    "focosa",
+    "focose",
+    "focosi",
+    "focoso",
+    "facezie"
+  ],
+  "861": [
+    "fegati",
+    "fegato",
+    "fugata",
+    "fugate",
+    "fugati",
+    "fugato",
+    "vagata"
+  ],
+  "862": [
+    "vicino",
+    "fugano",
+    "vagano",
+    "vagone",
+    "vagoni",
+    "vicina",
+    "vicine"
+  ],
+  "863": [
+    "vagiamo",
+    "fasciamo",
+    "evacuiamo"
+  ],
+  "864": [
+    "figura",
+    "fecero",
+    "figure",
+    "fugare",
+    "vagare",
+    "vagire",
+    "vicari"
+  ],
+  "865": [
+    "facile",
+    "facili",
+    "fucila",
+    "fucile",
+    "fucili",
+    "vicoli",
+    "vicolo"
+  ],
+  "866": [
+    "faccia",
+    "viaggio",
+    "facce",
+    "facci",
+    "faggi",
+    "fugga",
+    "fugge"
+  ],
+  "867": [
+    "vecchio",
+    "fischi",
+    "vacche",
+    "vasche",
+    "vecchi",
+    "vischi",
+    "fiacche"
+  ],
+  "868": [
+    "faceva",
+    "facevi",
+    "facevo",
+    "fugava",
+    "fugavi",
+    "fugavo",
+    "vagava"
+  ],
+  "871": [
+    "fughiate",
+    "vaghiate",
+    "voghiate"
+  ],
+  "872": [
+    "fughino",
+    "vaghino",
+    "voghino"
+  ],
+  "873": [
+    "fughiamo",
+    "vaghiamo",
+    "voghiamo"
+  ],
+  "874": [
+    "fachira",
+    "fachire",
+    "fachiri",
+    "fachiro",
+    "fugherai",
+    "fugherei",
+    "vagherai"
+  ],
+  "880": [
+    "avvisa",
+    "avvisi",
+    "offesa",
+    "offese",
+    "offesi",
+    "offeso",
+    "avvisai"
+  ],
+  "881": [
+    "affida",
+    "affidi",
+    "avvita",
+    "vivete",
+    "affiata",
+    "affiati",
+    "affidai"
+  ],
+  "882": [
+    "affine",
+    "affini",
+    "vivano",
+    "vivono",
+    "avevano",
+    "avviano",
+    "avviene"
+  ],
+  "883": [
+    "affama",
+    "affami",
+    "affamai",
+    "avevamo",
+    "avviamo",
+    "viviamo"
+  ],
+  "884": [
+    "affare",
+    "favore",
+    "vivere",
+    "offra",
+    "offre",
+    "offro",
+    "affari"
+  ],
+  "885": [
+    "affila",
+    "affili",
+    "avvale",
+    "favola",
+    "favole",
+    "vavola",
+    "affilai"
+  ],
+  "886": [
+    "ufficio",
+    "affoga",
+    "uffici",
+    "vivace",
+    "vivaci",
+    "affogai",
+    "offusca"
+  ],
+  "887": [
+    "affoghi"
+  ],
+  "888": [
+    "evviva",
+    "viveva",
+    "vivevi",
+    "vivevo",
+    "avviava",
+    "avviavi",
+    "avviavo"
+  ],
+  "894": [
+    "vibra",
+    "vibri",
+    "vapore",
+    "vapori",
+    "vibrai",
+    "vipera",
+    "vipere"
+  ],
+  "900": [
+    "basso",
+    "passo",
+    "pazzo",
+    "pezzo",
+    "piazza",
+    "bassa",
+    "bozza"
+  ],
+  "901": [
+    "posto",
+    "bestia",
+    "basta",
+    "busti",
+    "busto",
+    "pasta",
+    "pasti"
+  ],
+  "902": [
+    "bisogno",
+    "basano",
+    "basino",
+    "pesano",
+    "pesino",
+    "posano",
+    "posino"
+  ],
+  "903": [
+    "basiamo",
+    "biasima",
+    "biasimi",
+    "pesiamo",
+    "posiamo",
+    "abusiamo",
+    "biasimai"
+  ],
+  "904": [
+    "pesare",
+    "posare",
+    "basare",
+    "abusare",
+    "baserai",
+    "baserei",
+    "peserai"
+  ],
+  "907": [
+    "pasqua",
+    "pasque",
+    "psiche"
+  ],
+  "908": [
+    "basava",
+    "basavi",
+    "basavo",
+    "pesava",
+    "pesavi",
+    "pesavo",
+    "posava"
+  ],
+  "910": [
+    "ipotesi",
+    "pietosa",
+    "pietose",
+    "pietosi",
+    "pietoso"
+  ],
+  "911": [
+    "batta",
+    "batti",
+    "batto",
+    "botte",
+    "butti",
+    "patta",
+    "patti"
+  ],
+  "912": [
+    "badano",
+    "badino",
+    "bidone",
+    "budini",
+    "budino",
+    "optano",
+    "optino"
+  ],
+  "913": [
+    "badiamo",
+    "optiamo",
+    "epidemia",
+    "epidemie",
+    "abituiamo"
+  ],
+  "914": [
+    "padre",
+    "badare",
+    "patria",
+    "pietra",
+    "potere",
+    "abitare",
+    "padri"
+  ],
+  "915": [
+    "badile",
+    "badili",
+    "botola",
+    "botole",
+    "pedale",
+    "pedali",
+    "petali"
+  ],
+  "916": [
+    "abdica",
+    "pedice",
+    "pudica",
+    "pudici",
+    "pudico",
+    "abdicai",
+    "ipoteca"
+  ],
+  "917": [
+    "abdichi",
+    "pudiche",
+    "ipoteche"
+  ],
+  "918": [
+    "badava",
+    "badavi",
+    "badavo",
+    "optava",
+    "optavi",
+    "optavo",
+    "poteva"
+  ],
+  "920": [
+    "pensa",
+    "pensi",
+    "pinza",
+    "pinze",
+    "punse",
+    "punsi",
+    "penosa"
+  ],
+  "921": [
+    "ponte",
+    "punta",
+    "punto",
+    "biondo",
+    "pianta",
+    "banda",
+    "bande"
+  ],
+  "922": [
+    "opinione",
+    "panna",
+    "panne",
+    "panni",
+    "panno",
+    "penna",
+    "pinna"
+  ],
+  "923": [
+    "peniamo",
+    "poniamo",
+    "bagniamo",
+    "opiniamo"
+  ],
+  "924": [
+    "pianura",
+    "binari",
+    "penare",
+    "bagnare",
+    "binario",
+    "opinare",
+    "paniere"
+  ],
+  "925": [
+    "banale",
+    "banali",
+    "pignola",
+    "pignole",
+    "pignoli",
+    "pignolo",
+    "pugnala"
+  ],
+  "926": [
+    "bianco",
+    "banca",
+    "panca",
+    "pance",
+    "punge",
+    "pungo",
+    "bianca"
+  ],
+  "927": [
+    "banche",
+    "banchi",
+    "panche",
+    "bianche"
+  ],
+  "928": [
+    "penava",
+    "penavi",
+    "penavo",
+    "poneva",
+    "bagnava",
+    "bagnavi",
+    "bagnavo"
+  ],
+  "931": [
+    "pomata",
+    "pomate"
+  ],
+  "932": [
+    "piumini",
+    "piumino"
+  ],
+  "936": [
+    "pomice",
+    "pomici"
+  ],
+  "939": [
+    "bimba",
+    "bimbe",
+    "bimbi",
+    "bimbo",
+    "bomba",
+    "bombe",
+    "pompa"
+  ],
+  "940": [
+    "bersi",
+    "borsa",
+    "borse",
+    "parsa",
+    "parso",
+    "persa",
+    "perse"
+  ],
+  "941": [
+    "parte",
+    "porta",
+    "porto",
+    "prato",
+    "parete",
+    "periodo",
+    "bordi"
+  ],
+  "942": [
+    "brani",
+    "brano",
+    "brina",
+    "brine",
+    "bruna",
+    "brune",
+    "bruno"
+  ],
+  "943": [
+    "prima",
+    "primo",
+    "brama",
+    "prema",
+    "premi",
+    "premo",
+    "prime"
+  ],
+  "944": [
+    "porre",
+    "aprire",
+    "parere",
+    "barra",
+    "barre",
+    "birra",
+    "birre"
+  ],
+  "945": [
+    "parola",
+    "berlo",
+    "burla",
+    "burle",
+    "burli",
+    "parla",
+    "parli"
+  ],
+  "946": [
+    "barca",
+    "berci",
+    "borgo",
+    "brace",
+    "braci",
+    "bruci",
+    "porge"
+  ],
+  "947": [
+    "barche",
+    "borghi",
+    "bruchi",
+    "parchi",
+    "perequ",
+    "preghi",
+    "purghi"
+  ],
+  "948": [
+    "bravo",
+    "breve",
+    "prova",
+    "brava",
+    "brave",
+    "bravi",
+    "brevi"
+  ],
+  "949": [
+    "barba",
+    "proibii"
+  ],
+  "950": [
+    "polizia",
+    "balza",
+    "balze",
+    "balzi",
+    "polsi",
+    "polso",
+    "pulsa"
+  ],
+  "951": [
+    "palati",
+    "palato",
+    "palude",
+    "paludi",
+    "pelata",
+    "pelate",
+    "pelati"
+  ],
+  "952": [
+    "balena",
+    "balene",
+    "baleni",
+    "oblino",
+    "pelano",
+    "pelino",
+    "pilone"
+  ],
+  "953": [
+    "palma",
+    "palme",
+    "obliamo",
+    "peliamo",
+    "puliamo",
+    "aboliamo"
+  ],
+  "954": [
+    "pelare",
+    "polare",
+    "polari",
+    "pulire",
+    "abolire",
+    "obliare",
+    "pelerai"
+  ],
+  "955": [
+    "bello",
+    "pelle",
+    "balla",
+    "bella",
+    "belli",
+    "bolla",
+    "bolle"
+  ],
+  "956": [
+    "palco",
+    "plico",
+    "pulce",
+    "pulci",
+    "biologa",
+    "biologo",
+    "epilogo"
+  ],
+  "957": [
+    "palchi",
+    "plichi",
+    "obliqua",
+    "oblique",
+    "obliqui",
+    "obliquo",
+    "epiloghi"
+  ],
+  "958": [
+    "belva",
+    "belve",
+    "pelava",
+    "pelavi",
+    "pelavo",
+    "puliva",
+    "pulivi"
+  ],
+  "959": [
+    "bulbi",
+    "bulbo",
+    "palpa",
+    "palpi",
+    "plebe",
+    "plebi",
+    "polpa"
+  ],
+  "961": [
+    "pacata",
+    "pacate",
+    "pacati",
+    "pacato",
+    "pagata",
+    "pagate",
+    "pagati"
+  ],
+  "962": [
+    "pagina",
+    "bacini",
+    "bacino",
+    "pagana",
+    "pagane",
+    "pagani",
+    "pagano"
+  ],
+  "963": [
+    "baciamo",
+    "pigiama",
+    "pigiami"
+  ],
+  "964": [
+    "pagare",
+    "baciare",
+    "piacere",
+    "pigra",
+    "pigre",
+    "pigri",
+    "pigro"
+  ],
+  "965": [
+    "pigola",
+    "pigoli",
+    "pugile",
+    "pugili",
+    "bagagli",
+    "pascola",
+    "pascoli"
+  ],
+  "966": [
+    "bocca",
+    "peggio",
+    "bocce",
+    "bocci",
+    "pacco",
+    "pecca",
+    "poggi"
+  ],
+  "967": [
+    "becchi",
+    "bische",
+    "bocche",
+    "boschi",
+    "pacchi",
+    "pecchi",
+    "pesche"
+  ],
+  "968": [
+    "pagava",
+    "pagavi",
+    "pagavo",
+    "baciava",
+    "baciavi",
+    "baciavo",
+    "pescava"
+  ],
+  "971": [
+    "paghiate"
+  ],
+  "972": [
+    "paghino"
+  ],
+  "973": [
+    "paghiamo"
+  ],
+  "974": [
+    "pagherai",
+    "pagherei"
+  ],
+  "980": [
+    "piovosa",
+    "piovose",
+    "piovosi",
+    "piovoso"
+  ],
+  "981": [
+    "bevete",
+    "bevuto",
+    "piovuta",
+    "piovute"
+  ],
+  "982": [
+    "bevine",
+    "bevono",
+    "pavone",
+    "pavoni",
+    "epifania"
+  ],
+  "983": [
+    "beviamo"
+  ],
+  "984": [
+    "povero",
+    "baveri",
+    "bavero",
+    "bufera",
+    "bufere",
+    "povera",
+    "povere"
+  ],
+  "985": [
+    "bevilo",
+    "bavagli",
+    "bavaglio"
+  ],
+  "986": [
+    "opifici",
+    "opificio"
+  ],
+  "988": [
+    "baffi",
+    "baffo",
+    "beffa",
+    "beffe",
+    "buffa",
+    "buffe",
+    "buffi"
+  ],
+  "990": [
+    "abbazia",
+    "abbazie"
+  ],
+  "991": [
+    "bibita",
+    "bibite",
+    "abbiate",
+    "obbedii",
+    "abbaiata",
+    "abbaiate",
+    "abbaiati"
+  ],
+  "992": [
+    "appena",
+    "abbina",
+    "abbini",
+    "abbona",
+    "abbaini",
+    "abbaino",
+    "abbiano"
+  ],
+  "993": [
+    "abbiamo",
+    "abbaiamo",
+    "appaiamo"
+  ],
+  "994": [
+    "eppure",
+    "oppure",
+    "appare",
+    "appura",
+    "appuri",
+    "papera",
+    "papere"
+  ],
+  "995": [
+    "popolo",
+    "popola",
+    "popoli",
+    "abbagli",
+    "abbigli",
+    "appigli",
+    "popolai"
+  ],
+  "996": [
+    "ippica"
+  ],
+  "997": [
+    "ippiche"
+  ],
+  "998": [
+    "abbaiava",
+    "abbaiavi",
+    "abbaiavo",
+    "appaiava",
+    "appaiavi",
+    "appaiavo"
+  ],
+  "999": [
+    "babbo",
+    "babbi",
+    "pappa",
+    "pappe",
+    "poppa",
+    "poppe",
+    "bibbia"
+  ],
+  "000": [
+    "sasso",
+    "sassi",
+    "sessi",
+    "sesso",
+    "sozza",
+    "sozze",
+    "sozzi"
+  ],
+  "001": [
+    "sosta",
+    "soste",
+    "sosti",
+    "assedi",
+    "assoda",
+    "assodi",
+    "esista"
+  ],
+  "002": [
+    "sazino",
+    "susina",
+    "susine",
+    "assegna",
+    "assegni",
+    "saziano",
+    "seziona"
+  ],
+  "003": [
+    "assuma",
+    "assume",
+    "assieme",
+    "saziamo"
+  ],
+  "004": [
+    "essere",
+    "esseri",
+    "saziare",
+    "sazierai",
+    "sazierei"
+  ],
+  "006": [
+    "associ",
+    "associa",
+    "associai"
+  ],
+  "007": [
+    "ossequi",
+    "ossequia",
+    "ossequiai"
+  ],
+  "008": [
+    "saziava",
+    "saziavi",
+    "saziavo"
+  ],
+  "010": [
+    "stesa",
+    "stese",
+    "stesi",
+    "steso",
+    "estesa",
+    "esteso",
+    "astuzia"
+  ],
+  "011": [
+    "sotto",
+    "stato",
+    "zitto",
+    "estate",
+    "studio",
+    "setta",
+    "sette"
+  ],
+  "012": [
+    "stana",
+    "stani",
+    "stona",
+    "stoni",
+    "sdegna",
+    "sdegni",
+    "sedani"
+  ],
+  "013": [
+    "istmi",
+    "istmo",
+    "stima",
+    "stime",
+    "stimi",
+    "stiamo",
+    "stimai"
+  ],
+  "014": [
+    "stare",
+    "estero",
+    "sedere",
+    "storia",
+    "astri",
+    "astro",
+    "sidro"
+  ],
+  "015": [
+    "steli",
+    "stelo",
+    "stile",
+    "stili",
+    "stola",
+    "stole",
+    "ostile"
+  ],
+  "016": [
+    "istiga",
+    "stoica",
+    "stoici",
+    "stoico",
+    "sudice",
+    "sudici",
+    "zotica"
+  ],
+  "017": [
+    "istighi",
+    "stoiche",
+    "zotiche",
+    "esotiche",
+    "zodiache"
+  ],
+  "018": [
+    "stava",
+    "stavi",
+    "stavo",
+    "stiva",
+    "stive",
+    "stivi",
+    "stufa"
+  ],
+  "019": [
+    "stupii"
+  ],
+  "020": [
+    "senso",
+    "senza",
+    "sensi",
+    "usanza",
+    "usanze",
+    "sinuosa",
+    "sinuose"
+  ],
+  "021": [
+    "santa",
+    "sante",
+    "santi",
+    "santo",
+    "senta",
+    "sente",
+    "sento"
+  ],
+  "022": [
+    "sonno",
+    "sanno",
+    "sonni",
+    "zanna",
+    "zanne",
+    "sanano",
+    "sanino"
+  ],
+  "023": [
+    "saniamo",
+    "segniamo",
+    "sogniamo",
+    "suoniamo"
+  ],
+  "024": [
+    "segnare",
+    "signora",
+    "signore",
+    "sognare",
+    "suonare",
+    "sanare",
+    "sonora"
+  ],
+  "025": [
+    "segnale",
+    "segnala",
+    "segnali",
+    "sonagli",
+    "segnalai",
+    "sonaglio",
+    "usignoli"
+  ],
+  "026": [
+    "sangue"
+  ],
+  "028": [
+    "sanava",
+    "sanavi",
+    "sanavo",
+    "segnava",
+    "segnavi",
+    "segnavo",
+    "sognava"
+  ],
+  "029": [
+    "senapa",
+    "senape"
+  ],
+  "030": [
+    "smise",
+    "smisi"
+  ],
+  "032": [
+    "semina",
+    "semine",
+    "semini",
+    "smania",
+    "smanie",
+    "esamina",
+    "esamini"
+  ],
+  "033": [
+    "somma",
+    "somme",
+    "sommi",
+    "osammo",
+    "usammo",
+    "oziammo"
+  ],
+  "034": [
+    "somara",
+    "somare",
+    "somari",
+    "somaro",
+    "esimere"
+  ],
+  "035": [
+    "simile",
+    "simili",
+    "simula",
+    "simuli",
+    "smagli",
+    "simulai",
+    "smaglia"
+  ],
+  "038": [
+    "smuova",
+    "smuove",
+    "smuovi",
+    "smuovo"
+  ],
+  "039": [
+    "esempio",
+    "zampa",
+    "zampe",
+    "esempi"
+  ],
+  "040": [
+    "sorse",
+    "sorsi",
+    "sorso"
+  ],
+  "041": [
+    "sarta",
+    "sarte",
+    "sarti",
+    "sarto",
+    "sorda",
+    "sorde",
+    "sordi"
+  ],
+  "042": [
+    "sereno",
+    "serena",
+    "serene",
+    "sereni",
+    "sirena",
+    "sirene",
+    "osarono"
+  ],
+  "043": [
+    "oseremo",
+    "useremo",
+    "ozieremo",
+    "esauriamo"
+  ],
+  "044": [
+    "serra",
+    "serre",
+    "serri",
+    "serrai",
+    "esaurire",
+    "esaurirai",
+    "esaurirei"
+  ],
+  "045": [
+    "seriali"
+  ],
+  "046": [
+    "sorci",
+    "sorge",
+    "sorcio",
+    "esaurisca",
+    "esaurisce",
+    "esaurisci",
+    "esaurisco"
+  ],
+  "048": [
+    "serva",
+    "serve",
+    "servo",
+    "esauriva",
+    "esaurivi",
+    "esaurivo"
+  ],
+  "049": [
+    "serba",
+    "serbi",
+    "serbai",
+    "usurpa",
+    "usurpi",
+    "usurpai"
+  ],
+  "050": [
+    "salsa",
+    "salse"
+  ],
+  "051": [
+    "solito",
+    "salda",
+    "salde",
+    "saldi",
+    "salta",
+    "salti",
+    "esalta"
+  ],
+  "052": [
+    "salano",
+    "salino",
+    "esilino",
+    "isolano",
+    "isolino",
+    "esiliano"
+  ],
+  "053": [
+    "salma",
+    "salme",
+    "salmo",
+    "salame",
+    "salami",
+    "salume",
+    "salumi"
+  ],
+  "054": [
+    "salire",
+    "salare",
+    "salari",
+    "silura",
+    "siluri",
+    "isolare",
+    "salerai"
+  ],
+  "055": [
+    "sella",
+    "selle",
+    "sulla",
+    "sulle",
+    "sullo",
+    "zolla",
+    "zolle"
+  ],
+  "056": [
+    "salga",
+    "selci",
+    "slega",
+    "sloga",
+    "solca",
+    "salice",
+    "salici"
+  ],
+  "057": [
+    "sleghi",
+    "sloghi",
+    "solchi"
+  ],
+  "058": [
+    "salve",
+    "salvi",
+    "selva",
+    "selve",
+    "zolfo",
+    "salava",
+    "salavi"
+  ],
+  "059": [
+    "salpa",
+    "salpi",
+    "salpai"
+  ],
+  "061": [
+    "seguito",
+    "seguita",
+    "seguite",
+    "seguiti",
+    "suicida",
+    "suicidi",
+    "suscita"
+  ],
+  "062": [
+    "seguano",
+    "seguine",
+    "seguono",
+    "sguaina",
+    "sguaini",
+    "sguainai"
+  ],
+  "063": [
+    "seguiamo"
+  ],
+  "064": [
+    "sacro",
+    "sicuro",
+    "seguire",
+    "sacra",
+    "sacre",
+    "sacri",
+    "esecra"
+  ],
+  "065": [
+    "secolo",
+    "sociale",
+    "secoli",
+    "segale",
+    "sociali"
+  ],
+  "066": [
+    "sagge",
+    "saggi",
+    "secca",
+    "seggi",
+    "succo",
+    "zecca",
+    "zucca"
+  ],
+  "067": [
+    "sacche",
+    "sacchi",
+    "secche",
+    "secchi",
+    "succhi",
+    "zucche",
+    "secchia"
+  ],
+  "068": [
+    "seguiva",
+    "seguivi",
+    "seguivo"
+  ],
+  "073": [
+    "squama",
+    "squame"
+  ],
+  "074": [
+    "sugheri",
+    "sughero",
+    "segheria",
+    "segherie"
+  ],
+  "075": [
+    "squali",
+    "squalo",
+    "sequela",
+    "sequele",
+    "squagli",
+    "squaglia",
+    "squagliai"
+  ],
+  "080": [
+    "svisa",
+    "svisi",
+    "svisai"
+  ],
+  "081": [
+    "sfida",
+    "sfide",
+    "sfidi",
+    "svita",
+    "sviti",
+    "sfidai",
+    "sviata"
+  ],
+  "082": [
+    "sfinii",
+    "sifone",
+    "sifoni",
+    "svanii",
+    "svenii",
+    "sviano",
+    "osavano"
+  ],
+  "083": [
+    "sfama",
+    "sfami",
+    "sfamai",
+    "sviamo",
+    "osavamo",
+    "usavamo",
+    "oziavamo"
+  ],
+  "084": [
+    "sfera",
+    "sfere",
+    "severa",
+    "severe",
+    "severi",
+    "severo",
+    "sfiora"
+  ],
+  "085": [
+    "sfila",
+    "sfili",
+    "sfilai",
+    "sfogli",
+    "svegli",
+    "sfoglia",
+    "sfoglie"
+  ],
+  "086": [
+    "sfoci",
+    "sfoga",
+    "svaga",
+    "sfasci",
+    "sfocia",
+    "sfogai",
+    "svagai"
+  ],
+  "087": [
+    "sfoghi",
+    "svaghi"
+  ],
+  "088": [
+    "soffi",
+    "zuffa",
+    "zuffe",
+    "soffia",
+    "sviava",
+    "sviavi",
+    "sviavo"
+  ],
+  "090": [
+    "spesa",
+    "spazio",
+    "spazi",
+    "spese",
+    "spesi",
+    "sposa",
+    "spose"
+  ],
+  "091": [
+    "subito",
+    "spada",
+    "spade",
+    "sputa",
+    "sputi",
+    "ospita",
+    "ospite"
+  ],
+  "092": [
+    "spina",
+    "spine",
+    "espino",
+    "sapone",
+    "saponi",
+    "sopano",
+    "spegne"
+  ],
+  "093": [
+    "spuma",
+    "spume",
+    "espiamo",
+    "sopiamo"
+  ],
+  "094": [
+    "sopra",
+    "sapere",
+    "aspra",
+    "aspre",
+    "aspri",
+    "aspro",
+    "sobri"
+  ],
+  "095": [
+    "spola",
+    "spole",
+    "sbagli",
+    "sibila",
+    "sibili",
+    "spogli",
+    "sbaglia"
+  ],
+  "096": [
+    "specie",
+    "spago",
+    "speci",
+    "spiga",
+    "spiega",
+    "sopisca",
+    "sopisce"
+  ],
+  "097": [
+    "spaghi",
+    "spighe",
+    "spieghi"
+  ],
+  "098": [
+    "sbava",
+    "sbavi",
+    "sapeva",
+    "sapevi",
+    "sapevo",
+    "sbavai",
+    "sopiva"
+  ],
+  "099": [
+    "sappi",
+    "seppe",
+    "seppi",
+    "zappa",
+    "zappi",
+    "zeppa",
+    "zeppe"
+  ]
+}

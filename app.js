@@ -14,70 +14,12 @@ const generations = [
 ];
 
 let pokemonNames = [];
-
-const digitLookup = {
-  0: ['s', 'z'],
-  1: ['t', 'd'],
-  2: ['n', 'gn'],
-  3: ['m'],
-  4: ['r'],
-  5: ['l', 'gl'],
-  6: ['c', 'g'],
-  7: ['k', 'c', 'g', 'q', 'ch', 'gh'],
-  8: ['f', 'v'],
-  9: ['p', 'b']
-};
-
-const vowelBank = ['a', 'e', 'i', 'o', 'u'];
-const syllableMap = {
-  0: ['sa', 'za', 'se', 'si', 'so', 'su'],
-  1: ['ta', 'da', 'te', 'ti', 'to', 'du'],
-  2: ['na', 'gne', 'ni', 'no', 'nu', 'gno'],
-  3: ['ma', 'me', 'mi', 'mo', 'mu'],
-  4: ['ra', 're', 'ri', 'ro', 'ru'],
-  5: ['la', 'gle', 'li', 'lo', 'lu', 'gla'],
-  6: ['ca', 'ga', 'ce', 'gi', 'co', 'gu'],
-  7: ['ka', 'cha', 'ga', 'gue', 'chi', 'ku'],
-  8: ['fa', 'va', 'fe', 'vi', 'fo', 'vu'],
-  9: ['pa', 'ba', 'pe', 'bi', 'po', 'bu']
-};
-
-const realWordFallbacks = [
-  'sala', 'toro', 'naso', 'mela', 'riso', 'luna', 'faro', 'pino', 'casa', 'gatto',
-  'dado', 'banca', 'mario', 'gino', 'pasta', 'puma', 'rosa', 'nave', 'tigre', 'lago',
-  'chiesa', 'faro', 'sorella', 'pirata', 'dinosauro', 'tavolo', 'bambino', 'mamma', 'papà', 'finestra'
-];
-
-const exactWordMap = {
-  1: ['sasata', 'zasata', 'sasita'],
-  25: ['nala', 'anale', 'anala'],
-  50: ['sala', 'sola'],
-  150: ['talsa', 'talza'],
-  251: ['nalata', 'nalata'],
-  999: ['papapa', 'babbo', 'babbio'],
-  120: ['tensa', 'tanza'],
-  300: ['masa', 'mosa'],
-  420: ['ransa', 'ranna']
-};
-
-const italianWordBank = [
-  'sala', 'toro', 'naso', 'mela', 'riso', 'luna', 'casa', 'gatto', 'muro', 'pino',
-  'dado', 'banca', 'rosa', 'lago', 'dente', 'nave', 'mamma', 'pasta', 'tigre', 'faro',
-  'gino', 'mario', 'puma', 'nido', 'cane', 'tavolo', 'cielo', 'finestra', 'tetto', 'pietra',
-  'pesce', 'sorella', 'bambino', 'pietra', 'albero', 'alloro', 'girata', 'grano', 'fiume', 'sasso',
-  'donna', 'uomo', 'amore', 'tempo', 'luce', 'nube', 'stella', 'muro', 'porto', 'carta',
-  'casa', 'ragno', 'serpente', 'volpe', 'foca', 'tartaruga', 'natura', 'cavallo', 'delfino', 'fiori',
-  'giallo', 'bianco', 'rosso', 'verde', 'marrone', 'azzurro', 'petalo', 'fiore', 'montagna', 'lago',
-  'mare', 'costa', 'vulcano', 'prato', 'bosco', 'luce', 'vento', 'vento', 'ananas', 'banana',
-  'piede', 'mano', 'nastro', 'bandiera', 'esca', 'faro', 'manta', 'torre', 'sfera', 'rampa',
-  'casa', 'fuoco', 'riso', 'sasso', 'mela', 'pera', 'mandorla', 'pesca', 'uva', 'orango',
-  'pietra', 'natura', 'mappa', 'tubi', 'batteria', 'molla', 'cassa', 'pallone', 'tappeto', 'stanza',
-  'palla', 'mappa', 'coda', 'stanza', 'scuola', 'parola', 'cervello', 'finestra', 'lavoro', 'vino'
-];
+let verifiedWordMap = {};
+const noVerifiedWordMessage = 'Nessuna parola verificata';
 
 const defaultState = {
   mode: 'number',
-  selectedNumber: 25,
+  selectedNumber: 149,
   customWords: {},
   progress: {}
 };
@@ -122,6 +64,20 @@ async function loadPokemonNames() {
   pokemonNames = names;
 }
 
+async function loadVerifiedWordMap() {
+  const response = await fetch('./mnemonic-words.json?v=9');
+  if (!response.ok) throw new Error(`Unable to load mnemonic words: ${response.status}`);
+  const words = await response.json();
+  if (!words || Array.isArray(words) || typeof words !== 'object'
+    || Object.entries(words).some(([code, candidates]) =>
+      !/^\d{3}$/.test(code)
+      || !Array.isArray(candidates)
+      || candidates.some((word) => typeof word !== 'string' || encodeWord(word) !== code))) {
+    throw new Error('Mnemonic word data is incomplete or invalid');
+  }
+  verifiedWordMap = words;
+}
+
 function getPokemonBaseName(number) {
   const index = number - 1;
   const names = pokemonNames[index];
@@ -137,19 +93,6 @@ function getPokemonSprite(number) {
 
 function normalizeWord(word) {
   return String(word || '').trim().toLowerCase();
-}
-
-function getNumberCode(number) {
-  const digits = String(number).padStart(3, '0').split('');
-  return digits.map((digit) => Number(digit));
-}
-
-function getPhoneticSegments(number) {
-  const code = getNumberCode(number);
-  return code.flatMap((digit) => {
-    const variants = digitLookup[digit] || [];
-    return variants.length ? [variants[0]] : [''];
-  });
 }
 
 function encodeWord(word) {
@@ -225,69 +168,9 @@ function encodeWord(word) {
   return digits.join('');
 }
 
-function buildExactWordCandidates(number) {
-  const target = String(number).padStart(3, '0');
-  const digitMap = {
-    0: ['s', 'z'],
-    1: ['t', 'd'],
-    2: ['n', 'gn'],
-    3: ['m'],
-    4: ['r'],
-    5: ['l', 'gl'],
-    6: ['c', 'g', 'sc'],
-    7: ['k', 'c', 'g', 'ch', 'gh'],
-    8: ['f', 'v'],
-    9: ['p', 'b']
-  };
-
-  const digits = target.split('');
-  const variants = new Set();
-
-  for (const first of digitMap[Number(digits[0])]) {
-    for (const second of digitMap[Number(digits[1])]) {
-      for (const third of digitMap[Number(digits[2])]) {
-        const words = [
-          `${first}a${second}a${third}`,
-          `${first}a${second}a`,
-          `${first}${second}a${third}`,
-          `${first}${second}${third}`,
-          `${first}${second}${third}a`,
-          `${first}a${third}`,
-          `${first}${second}a`,
-          `${second}a${third}`
-        ];
-
-        words.forEach((candidate) => {
-          const cleaned = candidate.toLowerCase().replace(/[^a-z]/g, '');
-          if (cleaned.length < 3 || cleaned.length > 9) return;
-          if (!/[aeiou]/.test(cleaned)) return;
-          if (/(.)\1{2,}/.test(cleaned)) return;
-          if (encodeWord(cleaned).padStart(3, '0') !== target) return;
-          variants.add(cleaned);
-        });
-      }
-    }
-  }
-
-  return Array.from(variants).slice(0, 8);
-}
-
 function buildCandidateWords(number) {
   const target = String(number).padStart(3, '0');
-  const exactDirect = exactWordMap[number] || [];
-  if (exactDirect.length) {
-    return exactDirect.slice(0, 8);
-  }
-
-  const exactMatches = buildExactWordCandidates(number);
-  if (exactMatches.length) return exactMatches;
-
-  const fallback = [
-    'nala', 'sata', 'zata', 'tora', 'mala', 'rina', 'luna', 'sora',
-    'casa', 'dora', 'pino', 'gino', 'raro', 'moro', 'lago', 'faro'
-  ].filter((word) => encodeWord(word).padStart(3, '0').startsWith(target) || encodeWord(word).padStart(3, '0') === target);
-
-  return fallback.slice(0, 8).length ? fallback.slice(0, 8) : ['nala', 'sora', 'tora', 'mala', 'rina', 'luna'];
+  return verifiedWordMap[target] || [];
 }
 
 function generateWordForNumber(number) {
@@ -296,19 +179,7 @@ function generateWordForNumber(number) {
     return custom;
   }
 
-  const patternWords = buildCandidateWords(number);
-  const selection = patternWords[0] || 'nala';
-  const primary = selection;
-
-  const phonetic = getPhoneticSegments(number)
-    .filter(Boolean)
-    .map((segment) => segment.toLowerCase());
-
-  if (phonetic.length && phonetic[0] && !patternWords.includes(primary)) {
-    return `${phonetic[0]}${vowelBank[(number + 1) % vowelBank.length]}${phonetic[phonetic.length - 1]}`;
-  }
-
-  return primary;
+  return buildCandidateWords(number)[0] || noVerifiedWordMessage;
 }
 
 function getWordAlternatives(number) {
@@ -338,7 +209,14 @@ function updateWordPreview(number) {
   sprite.alt = `${name} sprite`;
 
   alternatives.innerHTML = '';
-  getWordAlternatives(number).forEach((candidate, idx) => {
+  const wordOptions = getWordAlternatives(number);
+  if (!wordOptions.length) {
+    const empty = document.createElement('p');
+    empty.className = 'muted';
+    empty.textContent = 'Non ho trovato una parola del dizionario con questa corrispondenza esatta. Puoi inserirne una tua.';
+    alternatives.appendChild(empty);
+  }
+  wordOptions.forEach((candidate) => {
     const chip = document.createElement('button');
     chip.type = 'button';
     chip.className = 'chip' + (candidate === word ? ' active' : '');
@@ -872,13 +750,18 @@ function attachEvents() {
 }
 
 async function init() {
-  state.selectedNumber = Math.min(1025, Math.max(1, Number(state.selectedNumber) || 25));
+  if (state.startupPokemonDefaultMigrated !== true) {
+    if (Number(state.selectedNumber) === 25) state.selectedNumber = 149;
+    state.startupPokemonDefaultMigrated = true;
+    saveState();
+  }
+  state.selectedNumber = Math.min(1025, Math.max(1, Number(state.selectedNumber) || 149));
   attachEvents();
   try {
-    await loadPokemonNames();
+    await Promise.all([loadPokemonNames(), loadVerifiedWordMap()]);
   } catch (error) {
-    console.error('Could not load Pokémon names.', error);
-    window.alert('Non è stato possibile caricare i nomi Pokémon. Ricarica la pagina per riprovare.');
+    console.error('Could not load Pokémon or mnemonic word data.', error);
+    window.alert('Non è stato possibile caricare i dati. Ricarica la pagina per riprovare.');
     return;
   }
   updateStudyOptions();

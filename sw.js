@@ -1,11 +1,12 @@
-const CACHE = 'poke-mnemonic-v8';
+const CACHE = 'poke-mnemonic-v9';
 const ASSETS = [
   './',
   './index.html',
   './styles.css?v=5',
-  './app.js?v=8',
+  './app.js?v=9',
   './manifest.webmanifest?v=3',
-  './pokemon-names.json?v=3'
+  './pokemon-names.json?v=3',
+  './mnemonic-words.json?v=9'
 ];
 
 self.addEventListener('install', (event) => {

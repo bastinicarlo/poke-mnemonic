@@ -33,11 +33,15 @@ http://localhost:8000
 - `styles.css` – layout mobile-first
 - `app.js` – logica di generazione, persistenza e flashcards
 - `pokemon-names.json` – nomi inglesi e italiani ufficiali delle 1025 specie
+- `mnemonic-words.json` – parole italiane di dizionario indicizzate per codice fonetico
+- `THIRD_PARTY_NOTICES.md` – attribuzione e licenza delle liste di parole italiane
 - `sw.js` – service worker per PWA offline
 - `manifest.webmanifest` – installazione app
 
 I nomi provengono dai dati localizzati di [PokéAPI](https://github.com/PokeAPI/pokeapi). Quando il nome italiano differisce da quello inglese, l'app mostra entrambi, ad esempio `Raging Bolt (Furiatonante)`.
 
+Le parole suggerite provengono dalle liste italiane comuni di [napolux/paroleitaliane](https://github.com/napolux/paroleitaliane); vengono proposte solo se la codifica fonetica corrisponde esattamente al numero.
+
 ## Note
 
-Il generatore usa una mappatura fonetica italiana standard per numeri da 1 a 999 e un fallback stilizzato per costruire parole plausibili quando le combinazioni sono meno naturali. Le parole personalizzate e i progressi di studio sono salvati localmente nel browser.
+Il generatore propone solo parole trovate nel lessico italiano e con una corrispondenza fonetica esatta. Se non trova una parola per un numero, non ne inventa una: puoi inserirne una personalizzata. Le parole personalizzate e i progressi di studio sono salvati localmente nel browser.
