@@ -233,12 +233,11 @@ function formatPokedexNumber(number) {
   return String(number).padStart(3, '0');
 }
 
-async function saveWord(number, word) {
+async function saveWord(number, word, status = document.getElementById('saveStatus')) {
   const normalized = normalizeWord(word);
   const previousWord = state.customWords[number];
   state.customWords[number] = normalized || undefined;
   if (!normalized) delete state.customWords[number];
-  const status = document.getElementById('saveStatus');
   try {
     saveState();
   } catch (error) {
@@ -247,18 +246,21 @@ async function saveWord(number, word) {
     console.error('Could not save the custom mnemonic word.', error);
     status.textContent = 'Non è stato possibile salvare la parola in questo browser. Controlla lo spazio disponibile.';
     status.classList.add('error');
-    return;
+    return false;
   }
 
-  updateWordPreview(number);
+  if (state.selectedNumber === number) updateWordPreview(number);
   renderWordTable();
+  if (studyCardEntry === number && !document.getElementById('studyHint').classList.contains('hidden')) {
+    document.getElementById('studyHintText').textContent = generateWordForNumber(number);
+  }
 
   try {
     const storage = navigator.storage;
     if (!storage || typeof storage.persist !== 'function') {
       status.textContent = 'Parola salvata in questo browser. Il browser non offre la protezione dai rilasci automatici dei dati.';
       status.classList.remove('error');
-      return;
+      return true;
     }
 
     const alreadyPersistent = typeof storage.persisted === 'function' && await storage.persisted();
@@ -272,6 +274,7 @@ async function saveWord(number, word) {
     status.textContent = 'Parola salvata in questo browser, ma non è stato possibile attivare la protezione dalla rimozione automatica.';
     status.classList.remove('error');
   }
+  return true;
 }
 
 function renderWordTable() {
@@ -592,6 +595,10 @@ function updateStudyCard() {
 
   hint.classList.add('hidden');
   answer.classList.add('hidden');
+  document.getElementById('studyWordEditor').classList.add('hidden');
+  document.getElementById('editStudyWordButton').classList.remove('hidden');
+  document.getElementById('editStudyWordButton').setAttribute('aria-expanded', 'false');
+  document.getElementById('studyWordStatus').textContent = '';
   document.getElementById('studyRevealActions').classList.remove('hidden');
   document.querySelectorAll('.score-button').forEach((button) => button.classList.add('hidden'));
   face.setAttribute('aria-label', state.mode === 'number' ? 'Indovina il Pokémon associato al numero' : 'Indovina il numero associato al Pokémon');
@@ -627,6 +634,18 @@ function showStudyHint() {
   document.getElementById('studyHintText').textContent = generateWordForNumber(studyCardEntry);
   hint.classList.remove('hidden');
   studyStage = 'hint';
+}
+
+function toggleStudyWordEditor(forceOpen) {
+  const editor = document.getElementById('studyWordEditor');
+  const button = document.getElementById('editStudyWordButton');
+  const isOpen = forceOpen ?? editor.classList.contains('hidden');
+  editor.classList.toggle('hidden', !isOpen);
+  button.setAttribute('aria-expanded', String(isOpen));
+  if (isOpen) {
+    document.getElementById('studyWordInput').value = generateWordForNumber(studyCardEntry);
+    document.getElementById('studyWordInput').focus();
+  }
 }
 
 function revealStudyAnswer() {
@@ -783,6 +802,23 @@ function attachEvents() {
 
   document.getElementById('showHintButton').addEventListener('click', showStudyHint);
   document.getElementById('showAnswerButton').addEventListener('click', revealStudyAnswer);
+  document.getElementById('editStudyWordButton').addEventListener('click', () => toggleStudyWordEditor());
+  document.getElementById('cancelStudyWordEditButton').addEventListener('click', () => toggleStudyWordEditor(false));
+  document.getElementById('saveStudyWordButton').addEventListener('click', async () => {
+    const word = document.getElementById('studyWordInput').value;
+    const status = document.getElementById('studyWordStatus');
+    if (!normalizeWord(word)) {
+      status.textContent = 'Inserisci una parola prima di salvarla.';
+      status.classList.add('error');
+      return;
+    }
+    const saved = await saveWord(
+      studyCardEntry,
+      word,
+      status
+    );
+    if (saved) toggleStudyWordEditor(false);
+  });
 
   document.querySelectorAll('.segment').forEach((button) => {
     button.addEventListener('click', () => {

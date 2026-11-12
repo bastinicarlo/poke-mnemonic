@@ -6,7 +6,7 @@
     <meta name="theme-color" content="#141827" />
     <title>Poké Mnemonic</title>
     <link rel="manifest" href="./manifest.webmanifest?v=3" />
-    <link rel="stylesheet" href="./styles.css?v=9" />
+    <link rel="stylesheet" href="./styles.css?v=10" />
   </head>
   <body>
     <div class="app-shell">
@@ -42,6 +42,20 @@
             <div class="study-actions" id="studyRevealActions">
               <button type="button" class="secondary-button" id="showHintButton">Mostra aiuto</button>
               <button type="button" class="primary-button" id="showAnswerButton">Mostra soluzione</button>
+            </div>
+
+            <div class="study-word-actions">
+              <button type="button" class="ghost-button" id="editStudyWordButton" aria-expanded="false" aria-controls="studyWordEditor">Modifica parola</button>
+            </div>
+
+            <div class="word-box study-word-editor hidden" id="studyWordEditor">
+              <label for="studyWordInput" class="word-label">Parola mnemonica</label>
+              <textarea id="studyWordInput" rows="2"></textarea>
+              <p class="storage-status" id="studyWordStatus" aria-live="polite"></p>
+              <div class="study-actions">
+                <button type="button" class="secondary-button" id="cancelStudyWordEditButton">Annulla</button>
+                <button type="button" class="primary-button" id="saveStudyWordButton">Salva parola</button>
+              </div>
             </div>
 
             <div class="card-toolbar">
@@ -181,6 +195,6 @@
       </main>
     </div>
 
-    <script src="./app.js?v=13"></script>
+    <script src="./app.js?v=14"></script>
   </body>
 </html>

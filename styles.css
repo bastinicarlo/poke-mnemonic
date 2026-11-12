@@ -556,6 +556,16 @@ textarea {
   flex-basis: 100%;
 }
 
+.study-word-actions {
+  display: flex;
+  justify-content: center;
+  margin-top: 0.8rem;
+}
+
+.study-word-editor {
+  margin-top: 1rem;
+}
+
 #studyFrontText {
   font-size: clamp(2.2rem, 7vw, 5rem);
 }
