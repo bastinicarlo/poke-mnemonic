@@ -7,7 +7,7 @@ Una Progressive Web App mobile-first per associare un numero di Pokédex a una p
 - generazione automatica di parole fonetiche partendo da un numero
 - associazione a Pokémon con sprite reali da PokéAPI
 - salvataggio delle parole personalizzate e dei progressi sul dispositivo, con richiesta al browser di proteggere i dati dalla rimozione automatica
-- studio in gruppi consecutivi di 50, per generazione o per intervallo Pokédex personalizzato
+- studio in ordine casuale, in gruppi di 50, per generazione o per intervallo Pokédex personalizzato
 - riepilogo dei progressi totali e per generazione
 - aiuto facoltativo tramite parola mnemonica e soluzione rivelata solo su richiesta
 - installabile come app sul dispositivo

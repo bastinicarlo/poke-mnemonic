@@ -38,6 +38,10 @@ img {
   display: block;
 }
 
+img[hidden] {
+  display: none;
+}
+
 .app-shell {
   max-width: 1200px;
   margin: 0 auto;
@@ -452,6 +456,12 @@ textarea {
 
 .study-panel {
   grid-column: 1 / -1;
+  scroll-margin-top: 1rem;
+}
+
+.study-panel > .panel-header {
+  justify-content: center;
+  margin-bottom: 0.4rem;
 }
 
 .progress-panel {
@@ -510,6 +520,10 @@ textarea {
   gap: 0.8rem;
   padding: 2rem 1rem;
   text-align: center;
+}
+
+.study-complete.hidden {
+  display: none;
 }
 
 .study-complete p {

@@ -6,26 +6,64 @@
     <meta name="theme-color" content="#141827" />
     <title>Poké Mnemonic</title>
     <link rel="manifest" href="./manifest.webmanifest?v=3" />
-    <link rel="stylesheet" href="./styles.css?v=6" />
+    <link rel="stylesheet" href="./styles.css?v=9" />
   </head>
   <body>
     <div class="app-shell">
       <header class="topbar">
         <div>
-          <p class="eyebrow">Pokédex mnemotecnica</p>
           <h1>Poké Mnemonic</h1>
         </div>
         <button id="installButton" class="ghost-button" hidden>Installa</button>
       </header>
 
       <main class="main-layout">
+        <section class="panel study-panel hidden" id="studyPanel">
+          <div class="panel-header">
+            <h2>Studio</h2>
+          </div>
+          <p class="study-progress" id="studyProgress" aria-live="polite"></p>
+          <div class="study-card" id="studyCard">
+            <div class="card-face" id="studyFace" aria-live="polite">
+              <p class="eyebrow" id="studyLabel">Frontal</p>
+              <h3 id="studyFrontText">#025</h3>
+              <img id="studySprite" alt="Sprite del Pokémon" />
+              <div class="word-box hidden" id="studyHint">
+                <p class="word-label">Aiuto · parola mnemonica</p>
+                <h3 id="studyHintText"></h3>
+              </div>
+              <div class="word-box hidden" id="studyAnswer">
+                <p class="word-label">Soluzione</p>
+                <h3 id="studyAnswerText"></h3>
+              </div>
+            </div>
+
+            <div class="study-actions" id="studyRevealActions">
+              <button type="button" class="secondary-button" id="showHintButton">Mostra aiuto</button>
+              <button type="button" class="primary-button" id="showAnswerButton">Mostra soluzione</button>
+            </div>
+
+            <div class="card-toolbar">
+              <button class="score-button again hidden" data-score="1">Da ripassare</button>
+              <button class="score-button hard hidden" data-score="2">Difficile</button>
+              <button class="score-button good hidden" data-score="3">Giusta</button>
+              <button class="score-button easy hidden" data-score="4">Facile</button>
+            </div>
+          </div>
+          <div class="study-complete hidden" id="studyComplete" aria-live="polite">
+            <h3 id="studyCompleteTitle">Gruppo completato!</h3>
+            <p id="studyCompleteText"></p>
+            <button type="button" class="primary-button" id="nextStudyBatchButton">Studia i prossimi 50 casuali</button>
+          </div>
+        </section>
+
         <section class="panel controls-panel">
           <div class="field-row">
             <label class="field" for="pokemonNumber">
               <span>Pokémon #</span>
               <input id="pokemonNumber" type="number" min="1" max="1025" value="149" />
             </label>
-            <button id="generateButton" class="primary-button">Genera</button>
+            <button id="generateButton" class="primary-button">Mostra Pokémon</button>
           </div>
 
           <div class="segmented">
@@ -36,7 +74,7 @@
           <div class="field study-scope-field custom-select-field">
             <span id="studyScopeLabel">Modalità di studio</span>
             <select class="custom-select-source" id="studyScope" tabindex="-1" aria-hidden="true">
-              <option value="batch">Gruppi da 50, in ordine</option>
+              <option value="batch">Gruppi casuali da 50</option>
               <option value="generation">Per generazione</option>
               <option value="custom">Intervallo personalizzato</option>
             </select>
@@ -98,7 +136,7 @@
           <div class="generation-progress-list" id="generationProgressList"></div>
         </section>
 
-        <section class="panel preview-panel">
+        <section class="panel preview-panel" id="previewPanel">
           <div class="pokemon-header">
             <div class="sprite-wrap">
               <img id="pokemonSprite" alt="Sprite del Pokémon" />
@@ -139,44 +177,9 @@
           <div id="wordTable" class="word-table" aria-live="polite"></div>
         </section>
 
-        <section class="panel study-panel hidden" id="studyPanel">
-          <p class="study-progress" id="studyProgress" aria-live="polite"></p>
-          <div class="study-card" id="studyCard">
-            <div class="card-face" id="studyFace" aria-live="polite">
-              <p class="eyebrow" id="studyLabel">Frontal</p>
-              <h3 id="studyFrontText">#025</h3>
-              <img id="studySprite" alt="Sprite del Pokémon" />
-              <div class="word-box hidden" id="studyHint">
-                <p class="word-label">Aiuto · parola mnemonica</p>
-                <h3 id="studyHintText"></h3>
-              </div>
-              <div class="word-box hidden" id="studyAnswer">
-                <p class="word-label">Soluzione</p>
-                <h3 id="studyAnswerText"></h3>
-              </div>
-            </div>
-
-            <div class="study-actions" id="studyRevealActions">
-              <button type="button" class="secondary-button" id="showHintButton">Mostra aiuto</button>
-              <button type="button" class="primary-button" id="showAnswerButton">Mostra soluzione</button>
-            </div>
-
-            <div class="card-toolbar">
-              <button class="score-button again hidden" data-score="1">Da ripassare</button>
-              <button class="score-button hard hidden" data-score="2">Difficile</button>
-              <button class="score-button good hidden" data-score="3">Giusta</button>
-              <button class="score-button easy hidden" data-score="4">Facile</button>
-            </div>
-          </div>
-          <div class="study-complete hidden" id="studyComplete" aria-live="polite">
-            <h3 id="studyCompleteTitle">Gruppo completato!</h3>
-            <p id="studyCompleteText"></p>
-            <button type="button" class="primary-button" id="nextStudyBatchButton">Studia i prossimi 50</button>
-          </div>
-        </section>
       </main>
     </div>
 
-    <script src="./app.js?v=10"></script>
+    <script src="./app.js?v=12"></script>
   </body>
 </html>

@@ -323,6 +323,11 @@ function buildStudyQueue(start, end) {
     queue.push(number);
   }
 
+  for (let index = queue.length - 1; index > 0; index -= 1) {
+    const randomIndex = Math.floor(Math.random() * (index + 1));
+    [queue[index], queue[randomIndex]] = [queue[randomIndex], queue[index]];
+  }
+
   return queue;
 }
 
@@ -333,11 +338,12 @@ function formatStudyRange(start, end) {
 function startStudyRange(start, end, session) {
   studyQueue = buildStudyQueue(start, end);
   currentStudyIndex = 0;
-  studySession = session;
+  studySession = { ...session, start, end };
   document.getElementById('studyPanel').classList.remove('hidden');
   document.getElementById('studyComplete').classList.add('hidden');
   document.getElementById('studyCard').classList.remove('hidden');
   updateStudyCard();
+  document.getElementById('studyPanel').scrollIntoView({ behavior: 'smooth', block: 'start' });
 }
 
 function updateStudyOptions() {
@@ -346,7 +352,7 @@ function updateStudyOptions() {
   document.getElementById('customRangeOption').classList.toggle('hidden', scope !== 'custom');
   const button = document.getElementById('studyButton');
   button.textContent = scope === 'batch'
-    ? `Studia i prossimi 50 · ${formatStudyRange(studyNextStart, Math.min(studyNextStart + studyBatchSize - 1, pokemonNames.length))}`
+    ? `Studia i prossimi 50 casuali · ${formatStudyRange(studyNextStart, Math.min(studyNextStart + studyBatchSize - 1, pokemonNames.length))}`
     : scope === 'generation' ? 'Avvia la generazione' : 'Avvia l’intervallo';
 }
 
@@ -533,7 +539,6 @@ function renderProgressOverview() {
       document.getElementById('studyGeneration').value = String(generations.indexOf(generation));
       updateStudyOptions();
       startSelectedStudy();
-      document.getElementById('studyPanel').scrollIntoView({ behavior: 'smooth', block: 'start' });
     });
 
     row.append(title, range, details, progress, startButton);
@@ -546,7 +551,6 @@ function updateStudyCard() {
   const face = document.getElementById('studyFace');
   const label = document.getElementById('studyLabel');
   const frontText = document.getElementById('studyFrontText');
-  const sprite = document.getElementById('studySprite');
   const hint = document.getElementById('studyHint');
   const answer = document.getElementById('studyAnswer');
   const progress = document.getElementById('studyProgress');
@@ -557,24 +561,21 @@ function updateStudyCard() {
   }
 
   card.classList.remove('hidden');
+  document.getElementById('studyComplete').classList.add('hidden');
   studyStage = 'question';
   studyCardEntry = studyQueue[currentStudyIndex];
   const number = studyCardEntry;
   const name = getPokemonBaseName(number);
-  const batchStart = studyQueue[0];
-  const batchEnd = studyQueue[studyQueue.length - 1];
-  progress.textContent = `Pokémon ${currentStudyIndex + 1} di ${studyQueue.length} · ${formatStudyRange(batchStart, batchEnd)}`;
+  progress.textContent = `Pokémon ${currentStudyIndex + 1} di ${studyQueue.length} · ${formatStudyRange(studySession.start, studySession.end)}`;
 
   if (state.mode === 'number') {
     label.textContent = 'Numero';
     frontText.textContent = `#${formatPokedexNumber(number)}`;
-    sprite.hidden = true;
+    hideStudySprite();
   } else {
     label.textContent = 'Pokémon';
     frontText.textContent = name;
-    sprite.src = getPokemonSprite(number);
-    sprite.alt = `${name} sprite`;
-    sprite.hidden = false;
+    loadStudySprite(number);
   }
 
   hint.classList.add('hidden');
@@ -582,6 +583,30 @@ function updateStudyCard() {
   document.getElementById('studyRevealActions').classList.remove('hidden');
   document.querySelectorAll('.score-button').forEach((button) => button.classList.add('hidden'));
   face.setAttribute('aria-label', state.mode === 'number' ? 'Indovina il Pokémon associato al numero' : 'Indovina il numero associato al Pokémon');
+}
+
+function hideStudySprite() {
+  const sprite = document.getElementById('studySprite');
+  sprite.hidden = true;
+  sprite.dataset.requestedSrc = '';
+  sprite.onload = null;
+  sprite.onerror = null;
+}
+
+function loadStudySprite(number) {
+  const sprite = document.getElementById('studySprite');
+  const source = getPokemonSprite(number);
+  sprite.hidden = true;
+  sprite.dataset.requestedSrc = source;
+  sprite.alt = `${getPokemonBaseName(number)} sprite`;
+  sprite.onload = () => {
+    if (sprite.dataset.requestedSrc === source) sprite.hidden = false;
+  };
+  sprite.onerror = () => {
+    if (sprite.dataset.requestedSrc === source) sprite.hidden = true;
+  };
+  sprite.src = source;
+  if (sprite.complete && sprite.naturalWidth > 0) sprite.hidden = false;
 }
 
 function showStudyHint() {
@@ -596,14 +621,11 @@ function revealStudyAnswer() {
   if (studyStage === 'answer') return;
   const number = studyCardEntry;
   const name = getPokemonBaseName(number);
-  const sprite = document.getElementById('studySprite');
   const answerText = document.getElementById('studyAnswerText');
 
   if (state.mode === 'number') {
     answerText.textContent = name;
-    sprite.src = getPokemonSprite(number);
-    sprite.alt = `${name} sprite`;
-    sprite.hidden = false;
+    loadStudySprite(number);
   } else {
     answerText.textContent = `#${formatPokedexNumber(number)}`;
   }
@@ -617,8 +639,8 @@ function revealStudyAnswer() {
 function nextStudyCard() {
   currentStudyIndex += 1;
   if (currentStudyIndex >= studyQueue.length) {
-    const batchStart = studyQueue[0];
-    const batchEnd = studyQueue[studyQueue.length - 1];
+    const batchStart = studySession.start;
+    const batchEnd = studySession.end;
     let nextStart = null;
     let nextEnd = null;
     let nextLabel = '';
@@ -627,7 +649,7 @@ function nextStudyCard() {
       if (studyNextStart > pokemonNames.length) studyNextStart = 1;
       nextStart = studyNextStart;
       nextEnd = Math.min(nextStart + studyBatchSize - 1, pokemonNames.length);
-      nextLabel = `Studia i prossimi 50 · ${formatStudyRange(nextStart, nextEnd)}`;
+      nextLabel = `Studia i prossimi 50 casuali · ${formatStudyRange(nextStart, nextEnd)}`;
       updateStudyOptions();
     } else if (studySession.type === 'generation') {
       const nextGenerationIndex = studySession.generationIndex + 1;
@@ -692,6 +714,7 @@ function attachEvents() {
     state.selectedNumber = number;
     document.getElementById('pokemonNumber').value = number;
     updateWordPreview(number);
+    document.getElementById('previewPanel').scrollIntoView({ behavior: 'smooth', block: 'center' });
   });
 
   document.getElementById('pokemonNumber').addEventListener('change', () => {

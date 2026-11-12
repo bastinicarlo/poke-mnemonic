@@ -1,9 +1,9 @@
-const CACHE = 'poke-mnemonic-v10';
+const CACHE = 'poke-mnemonic-v13';
 const ASSETS = [
   './',
   './index.html',
-  './styles.css?v=6',
-  './app.js?v=10',
+  './styles.css?v=9',
+  './app.js?v=12',
   './manifest.webmanifest?v=3',
   './pokemon-names.json?v=3',
   './mnemonic-words.json?v=9'
