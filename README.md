@@ -6,7 +6,7 @@ Una Progressive Web App mobile-first per associare un numero di Pokédex a una p
 
 - generazione automatica di parole fonetiche partendo da un numero
 - associazione a Pokémon con sprite reali da PokéAPI
-- salvataggio delle parole personalizzate in localStorage
+- salvataggio delle parole personalizzate e dei progressi sul dispositivo, con richiesta al browser di proteggere i dati dalla rimozione automatica
 - studio in gruppi consecutivi di 50, per generazione o per intervallo Pokédex personalizzato
 - riepilogo dei progressi totali e per generazione
 - aiuto facoltativo tramite parola mnemonica e soluzione rivelata solo su richiesta
@@ -42,6 +42,8 @@ I nomi provengono dai dati localizzati di [PokéAPI](https://github.com/PokeAPI/
 
 Le parole suggerite provengono dalle liste italiane comuni di [napolux/paroleitaliane](https://github.com/napolux/paroleitaliane); vengono proposte solo se la codifica fonetica corrisponde esattamente al numero.
 
+Parole personalizzate e progressi sono salvati nello `localStorage` del browser. Dopo il salvataggio di una parola, l'app chiede al browser la persistenza dello spazio del sito per ridurre il rischio che venga cancellato automaticamente. I dati restano legati a quel browser e dispositivo: non si sincronizzano tra dispositivi e possono comunque essere eliminati cancellando i dati del sito o il profilo del browser.
+
 ## Note
 
-Il generatore propone solo parole trovate nel lessico italiano e con una corrispondenza fonetica esatta. Se non trova una parola per un numero, non ne inventa una: puoi inserirne una personalizzata. Le parole personalizzate e i progressi di studio sono salvati localmente nel browser.
+Il generatore propone solo parole trovate nel lessico italiano e con una corrispondenza fonetica esatta. Se non trova una parola per un numero, non ne inventa una: puoi inserirne una personalizzata. La tabella «Generatore completo» si aggiorna subito dopo aver salvato una parola.

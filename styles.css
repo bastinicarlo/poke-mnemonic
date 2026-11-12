@@ -396,6 +396,17 @@ textarea {
   resize: vertical;
 }
 
+.storage-status {
+  margin-top: 0.65rem;
+  color: var(--muted);
+  font-size: 0.8rem;
+  line-height: 1.45;
+}
+
+.storage-status.error {
+  color: var(--danger);
+}
+
 .list-panel {
   grid-column: 1 / -1;
 }

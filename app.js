@@ -233,12 +233,45 @@ function formatPokedexNumber(number) {
   return String(number).padStart(3, '0');
 }
 
-function saveWord(number, word) {
+async function saveWord(number, word) {
   const normalized = normalizeWord(word);
+  const previousWord = state.customWords[number];
   state.customWords[number] = normalized || undefined;
   if (!normalized) delete state.customWords[number];
-  saveState();
+  const status = document.getElementById('saveStatus');
+  try {
+    saveState();
+  } catch (error) {
+    if (previousWord === undefined) delete state.customWords[number];
+    else state.customWords[number] = previousWord;
+    console.error('Could not save the custom mnemonic word.', error);
+    status.textContent = 'Non è stato possibile salvare la parola in questo browser. Controlla lo spazio disponibile.';
+    status.classList.add('error');
+    return;
+  }
+
   updateWordPreview(number);
+  renderWordTable();
+
+  try {
+    const storage = navigator.storage;
+    if (!storage || typeof storage.persist !== 'function') {
+      status.textContent = 'Parola salvata in questo browser. Il browser non offre la protezione dai rilasci automatici dei dati.';
+      status.classList.remove('error');
+      return;
+    }
+
+    const alreadyPersistent = typeof storage.persisted === 'function' && await storage.persisted();
+    const persistent = alreadyPersistent || await storage.persist();
+    status.textContent = persistent
+      ? 'Parola salvata in questo browser con protezione dalla rimozione automatica dei dati.'
+      : 'Parola salvata in questo browser, ma il browser potrebbe rimuovere i dati se lo spazio scarseggia.';
+    status.classList.remove('error');
+  } catch (error) {
+    console.error('Could not request persistent browser storage.', error);
+    status.textContent = 'Parola salvata in questo browser, ma non è stato possibile attivare la protezione dalla rimozione automatica.';
+    status.classList.remove('error');
+  }
 }
 
 function renderWordTable() {
